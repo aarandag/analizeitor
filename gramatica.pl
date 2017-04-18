@@ -15,15 +15,22 @@ s_verbal --> verbo, s_nominal(_, _).
 %% Vocabulario
 
 determinante(masculino, singular) --> [ese].
+determinante(masculino, plural) --> [esos].
 determinante(femenino, singular) --> [esa].
+determinante(femenino, plural) --> [esas].
 determinante(masculino, singular) --> [este].
+determinante(masculino, plural) --> [estos].
 determinante(femenino, singular) --> [esta].
+determinante(femenino, plural) --> [estas].
 determinante(masculino, singular) --> [aquel].
+determinante(masculino, plural) --> [aquellos].
 determinante(femenino, singular) --> [aquella].
+determinante(femenino, plural) --> [aquellas].
 
 sustantivo(masculino, singular) --> [él].
 sustantivo(femenino, singular) --> [ella].
 sustantivo(femenino, singular) --> [casa].
+sustantivo(femenino, plural) --> [casas].
 
 verbo --> [juega].
 verbo --> [es].
@@ -31,4 +38,4 @@ verbo --> [es].
 adjetivo(masculino, singular) --> [bonito].
 adjetivo(femenino, singular) --> [bonita].
 adjetivo(masculino, plural) --> [bonitos].
-adjetivo(femenino, singular) --> [bonitas].
+adjetivo(femenino, plural) --> [bonitas].
