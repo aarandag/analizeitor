@@ -1,6 +1,8 @@
 %% Reglas gramaticales
 programa(X):-downcase_atom(X, D), tokenizer(D,B),phrase(oracion,B).
-oracion --> s_nominal(_, _), s_verbal.
+
+oracion --> s_nominal(G, N), s_verbal(G, N).
+oracion --> s_verbal(_, _).
 
 s_nominal(Genero, Numero) --> determinante(Genero, Numero), s_nominal2(Genero, Numero).
 s_nominal(Genero, Numero) --> s_nominal2(Genero, Numero).
@@ -10,9 +12,10 @@ s_nominal2(G, N) --> sustantivo(G, N).
 s_nominal2(G, N) --> adjetivo(G, N), s_nominal(G, N).
 s_nominal2(G, N) --> sustantivo(G, N), adjetivo(G, N).% @@@La pila :=(
 
-s_verbal --> verbo.
-s_verbal --> verbo, s_nominal(_, _).
-
+% REVISAR PERSONA
+s_verbal(N, G) --> verbo(normal, _, G, N, __).
+s_verbal(G, N) --> verbo(normal, _, G, N, _), s_nominal(_, _).
+s_verbal(G, N) --> verbo(copulativo, _, G, N, _), adjetivo(G, N).
 %% Vocabulario
 
 determinante(masculino, singular) --> ["ese"].
@@ -33,8 +36,17 @@ sustantivo(femenino, singular) --> ["ella"].
 sustantivo(femenino, singular) --> ["casa"].
 sustantivo(femenino, plural) --> ["casas"].
 
-verbo --> ["juega"].
-verbo --> ["es"].
+% verbo(tipo, modo, genero, numero, persona)
+verbo(normal, indicativo, _, singular, tercera) --> ["juega"].
+
+verbo(copulativo, indicativo, _, singular, tercera) --> ["es"].
+verbo(copulativo, indicativo, _, plural, tercera) --> ["son"].
+
+verbo(copulativo, indicativo, _, singular, tercera) --> ["parece"].
+verbo(copulativo, indicativo, _, plural, tercera) --> ["parecen"].
+
+verbo(copulativo, indicativo, _, singular, tercera) --> ["está"].
+verbo(copulativo, indicativo, _, plural, tercera) --> ["están"].
 
 adjetivo(masculino, singular) --> ["bonito"].
 adjetivo(femenino, singular) --> ["bonita"].
@@ -42,8 +54,4 @@ adjetivo(masculino, plural) --> ["bonitos"].
 adjetivo(femenino, plural) --> ["bonitas"].
 
 tokenizer(A,B):-split_string(A," ",'',B).
-
-
-
-
 
