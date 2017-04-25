@@ -1,5 +1,6 @@
-%% Reglas gramaticales
 programa(X):-downcase_atom(X, D), tokenizer(D,B),phrase(oracion,B).
+tokenizer(A,B):-split_string(A," ",'',B).
+%% Reglas gramaticales
 
 oracion --> s_nominal(G, N), s_verbal(G, N).
 oracion --> s_verbal(_, _).
@@ -9,7 +10,7 @@ s_nominal(Genero, Numero) --> s_nominal2(Genero, Numero).
 
 s_nominal2(G, N) --> sustantivo(G, N).
 
-s_nominal2(G, N) --> adjetivo(G, N), s_nominal(G, N).
+s_nominal2(G, N) --> adjetivo(G, N),  s_nominal(G, N).
 s_nominal2(G, N) --> sustantivo(G, N), adjetivo(G, N).% @@@La pila :=(
 
 % REVISAR PERSONA
@@ -53,5 +54,4 @@ adjetivo(femenino, singular) --> ["bonita"].
 adjetivo(masculino, plural) --> ["bonitos"].
 adjetivo(femenino, plural) --> ["bonitas"].
 
-tokenizer(A,B):-split_string(A," ",'',B).
 
