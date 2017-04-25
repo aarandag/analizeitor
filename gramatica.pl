@@ -9,19 +9,20 @@ s_nominal(Genero, Numero) --> determinante(Genero, Numero), s_nominal2(Genero, N
 s_nominal(Genero, Numero) --> s_nominal2(Genero, Numero).
 
 s_nominal2(G, N) --> sustantivo(G, N).
-
 s_nominal2(G, N) --> s_adjetivo(G, N),  s_nominal(G, N).
-s_nominal2(G, N) --> sustantivo(G, N), s_adjetivo(G, N).% @@@La pila :=(
+s_nominal2(G, N) --> sustantivo(G, N), s_adjetivo(G, N).
 
 s_adjetivo(G, N) --> adjetivo(G, N).
 s_adjetivo(G, N) --> s_adverbial, s_adjetivo(G, N).
 
 s_adverbial --> adverbio.
 
+
 % REVISAR PERSONA
 s_verbal(N, G) --> verbo(normal, _, G, N, __).
 s_verbal(G, N) --> verbo(normal, _, G, N, _), s_nominal(_, _).
 s_verbal(G, N) --> verbo(copulativo, _, G, N, _), s_adjetivo(G, N).
+
 %% Vocabulario
 
 determinante(masculino, singular) --> ["ese"].
@@ -44,9 +45,6 @@ sustantivo(femenino, plural) --> ["casas"].
 
 adverbio --> ["muy"].
 	     
-% verbo(tipo, modo, genero, numero, persona)
-verbo(normal, indicativo, _, singular, tercera) --> ["juega"].
-
 verbo(copulativo, indicativo, _, singular, tercera) --> ["es"].
 verbo(copulativo, indicativo, _, plural, tercera) --> ["son"].
 
