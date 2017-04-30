@@ -1,107 +1,75 @@
-programa(X):-downcase_atom(X, D), tokenizer(D,B),phrase(oracion,B).
+programa(X, Analisis):-downcase_atom(X, D), tokenizer(D,B),phrase(oracion(Analisis),B).
 tokenizer(A,B):-split_string(A," ",'',B).
 %% Reglas gramaticales
 
-oracion --> s_nominal(G, N), s_verbal(G, N).
-oracion --> s_verbal(_, _).
+oracion(oracion(SN, SV)) --> s_nominal(SN, G, N), s_verbal(SV, G, N).
+oracion(oracion(SV)) --> s_verbal(SV, _, _).
 
-s_nominal(Genero, Numero) --> determinante(Genero, Numero), s_nominal2(Genero, Numero).
-s_nominal(Genero, Numero) --> s_nominal2(Genero, Numero).
+s_nominal(sn(DET, SN), Genero, Numero) --> determinante(DET, Genero, Numero), s_nominal2(SN, Genero, Numero).
+s_nominal(sn(SN), Genero, Numero) --> s_nominal2(SN, Genero, Numero).
 
 %s_nominal2(G, N) --> s_nominal2(G, N), s_preposicional(_, _).
 %s_nominal2(G, N) --> sustantivo(G, N).
-s_nominal2(G, N) --> s_adjetivo(G, N),  s_nominal2(G, N).
+s_nominal2(sn2(SA, SN), G, N) --> s_adjetivo(SA, G, N),  s_nominal2(SN, G, N).
 %s_nominal2(G, N) --> sustantivo(G, N), s_adjetivo(G, N).
 
-s_nominal2(G, N) --> sustantivo(G, N), s_nominal3(G, N) |
-		     sustantivo(G, N), s_adjetivo(G, N), s_nominal3(G, N).
-s_nominal3(G, N) --> [] | s_preposicional(_, _), s_nominal3(G, N) |
-		     s_nominal(G, N), s_nominal3(G, N).
+s_nominal2(sn2(S, SN3), G, N) --> sustantivo(S, G, N), s_nominal3(SN3, G, N).
+s_nominal2(sn2(S, SA, SN3), G, N) --> sustantivo(S, G, N), s_adjetivo(SA, G, N), s_nominal3(SN3, G, N).
+s_nominal3(fsn3, G, N) --> [].
+s_nominal3(sn3(SP, SN3), G, N) --> s_preposicional(SP, _, _), s_nominal3(SN3, G, N).
+s_nominal3(sn3(SN, SN3), G, N) --> s_nominal(SN, G, N), s_nominal3(SN3, G, N).
 
-s_preposicional(G,N) --> preposicion,s_nominal(G,N).
+s_preposicional(sp(P, SN), G, N) --> preposicion(P),s_nominal(SN,G,N).
 
-s_adjetivo(G, N) --> s_adverbial, s_adjetivo(G, N).
+s_adjetivo(sadj(SADV, SADJ), G, N) --> s_adverbial(SADV), s_adjetivo(SADJ, G, N).
 %s_adjetivo(G, N) --> adjetivo(G, N).
 %s_adjetivo(G, N) --> s_adjetivo(G, N), s_preposicional(_, _).
-s_adjetivo(G, N) --> adjetivo(G, N), s_adjetivo2(G, N).
-s_adjetivo2(G, N) --> [] | s_preposicional(_, _), s_adjetivo2(G, N).
+s_adjetivo(sadj(ADJ, SADJ2), G, N) --> adjetivo(ADJ, G, N), s_adjetivo2(SADJ2, G, N).
+s_adjetivo2(fsadj2, G, N) --> [].
+s_adjetivo2(sadj2(SP, SADJ2), G, N) --> s_preposicional(SP, _, _), s_adjetivo2(SADJ2, G, N).
 
 %s_adverbial --> adverbio.
 %s_adverbial --> s_adverbial, s_preposicional.
-s_adverbial --> adverbio, s_adverbial2.
-s_adverbial2 --> [] | s_preposicional(_, _), s_adverbial2.
+s_adverbial(sadv(A, SADV2)) --> adverbio(A), s_adverbial2(SADV2).
+s_adverbial2(fsadv2) --> [].
+s_adverbial2(sadv2(SP, SADV2)) --> s_preposicional(SP, _, _), s_adverbial2(SADV2).
 
 % REVISAR PERSONA
-s_verbal(G, N) --> verbo(normal, _, G, N, __), complementos.
+s_verbal(sv(V, C), G, N) --> verbo(V, predicativo, _, G, N, __), complementos(C).
 
 
-s_verbal(G,N) --> verbo(copulativo, _, G, N, _), s_adjetivo(G, N).
-s_verbal(G,N) -->verbo(copulativo,_,G,N,_),s_preposicional(_,_).
-s_verbal(G,N) -->verbo(copulativo,_,G,N,_),s_nominal(_,_).
-complementos --> [] | complemento, complementos.
-complemento --> s_nominal(_, _) | s_adjetivo(_,_) |
-		s_adverbial | s_adjetivo(_, _).
+s_verbal(sv(V, SADJ), G, N) --> verbo(V, copulativo, _, G, N, _), s_adjetivo(SADJ, G, N).
+s_verbal(sv(V, SPREP), G, N) --> verbo(V, copulativo,_,G,N,_),s_preposicional(SPREP, _, _).
+s_verbal(sv(V, SN), G, N) -->verbo(V, copulativo,_,G,N,_),s_nominal(SN, _, _).
+complementos(fc) --> [].
+complementos(c(C, CS)) --> complemento(C), complementos(CS).
+complemento(c(C)) --> s_nominal(C, _, _) | s_adjetivo(C, _,_) | s_adverbial(C) | s_adjetivo(C, _, _).
 %% Vocabulario
 
-determinante(masculino, singular) --> ["ese"].
-determinante(masculino, plural) --> ["esos"].
-determinante(femenino, singular) --> ["esa"].
-determinante(femenino, plural) --> ["esas"].
-determinante(masculino, singular) --> ["este"].
-determinante(masculino, plural) --> ["estos"].
-determinante(femenino, singular) --> ["esta"].
-determinante(femenino, plural) --> ["estas"].
-determinante(masculino, singular) --> ["aquel"].
-determinante(masculino, plural) --> ["aquellos"].
-determinante(femenino, singular) --> ["aquella"].
-determinante(femenino, plural) --> ["aquellas"].
-determinante(_, singular) --> ["mi"].
-determinante(masculino, plural) --> ["unos"].
-determinante(femenino, singular) --> ["la"].
-determinante(_, plural) --> ["sus"].
+determinante(det(X), masculino, singular) --> [X], { member(X, ["ese", "este", "aquel"]) }.
+determinante(det(X), femenino, singular) --> [X], { member(X, ["esa", "esta", "aquella", "la"]) }.
+determinante(det(X), masculino, plural) --> [X], { member(X, ["esos", "estos", "aquellos", "unos"]) }.
+determinante(det(X), femenino, plural) --> [X], { member(X, ["las", "esas", "estas", "aquellas"]) }.
+determinante(det(X), _, singular) --> [X], { member(X, ["mi"]) }.
+determinante(det(X), _, plural) --> [X], { member(X, ["sus"]) }.
 
-sustantivo(masculino,singular) --> ["arbol"].
-sustantivo(masculino,plural) --> ["arboles"].
-sustantivo(femenino,singluar) -->["chica"].
-sustantivo(femenino,plural) -->["chicas"].
-sustantivo(masculino,singluar) -->["chico"].
-sustantivo(masculino,plural) -->["chicos"].
-sustantivo(masculino, singular) --> ["él"].
-sustantivo(femenino, singular) --> ["ella"].
-sustantivo(femenino, singular) --> ["casa"].
-sustantivo(femenino, plural) --> ["casas"].
-sustantivo(masculino, singular) --> ["enrique"].
-sustantivo(masculino, singular) --> ["amigo"].
-sustantivo(masculino, singular) --> ["pueblo"].
-sustantivo(_, plural) --> ["turistas"].
-sustantivo(masculino, plural) --> ["abuelos"].
+sustantivo(sus(X), masculino, singular) --> [X], { member(X, ["arbol", "chico", "él", "enrique", "amigo", "pueblo"]) }.
+sustantivo(sus(X), femenino, singular) --> [X], { member(X, ["chica", "ella", "casa"]) }.
+sustantivo(sus(X), masculino, plural) --> [X], { member(X, ["árboles", "chicos", "abuelos"]) }.
+sustantivo(sus(X), femenino, plural) --> [X], { member(X, ["chicas", "casas"]) }.
+sustantivo(sus(X), _, plural) --> [X], { member(X, ["turistas"]) }.
 
-preposicion --> ["de"].
-preposicion --> ["a"].
+preposicion(prep(X)) --> [X], { member(X, ["de", "a"]) }.
 
-adverbio --> ["muy"].
-adverbio --> ["tan"].
-adverbio --> ["pronto"].
+adverbio(adv(X)) --> [X], { member(X, ["muy", "tan", "pronto"]) }.
 
-verbo(copulativo, indicativo, _, singular, tercera) --> ["es"].
-verbo(copulativo, indicativo, _, plural, tercera) --> ["son"].
+verbo(verbo(X), copulativo, indicativo, _, singular, tercera) --> [X], { member(X, ["es", "parece", "está"]) }.
+verbo(verbo(X), copulativo, indicativo, _, plural, tercera) --> [X], {member(X, ["son", "parecen", "están"]) }.
 
-verbo(copulativo, indicativo, _, singular, tercera) --> ["parece"].
-verbo(copulativo, indicativo, _, plural, tercera) --> ["parecen"].
+verbo(verbo(X), predicativo, indicativo, _, singular, tercera) --> [X], {member(X, ["venderá", "muerde"])}.
 
-verbo(copulativo, indicativo, _, singular, tercera) --> ["está"].
-verbo(copulativo, indicativo, _, plural, tercera) --> ["están"].
-
-verbo(normal, indicativo, _, singular, tercera) --> ["venderá"].
-verbo(normal, indicativo, _, singular, tercera) --> ["muerde"].
-
-adjetivo(masculino, singular) --> ["bonito"].
-adjetivo(femenino, singular) --> ["bonita"].
-adjetivo(masculino, plural) --> ["bonitos"].
-adjetivo(femenino, plural) --> ["bonitas"].
-adjetivo(masculino, singular) --> ["guapo"].
-adjetivo(femenino, singular) --> ["guapa"].
-adjetivo(masculino, plural) --> ["guapos"].
-adjetivo(femenino, plural) --> ["guapas"].
-adjetivo(masculino, singular) --> ["simpático"].
+adjetivo(adj(X), masculino, singular) --> [X], {member(X, ["bonito", "guapo", "simpático"])}.
+adjetivo(adj(X), femenino, singular) --> [X], {member(X, ["bonita", "guapa", "simpática"])}.
+adjetivo(adj(X), masculino, plural) --> [X], {member(X, ["bonitos", "guapos", "simpáticos"])}.
+adjetivo(adj(X), femenino, plural) --> [X], {member(X, ["bonitas", "guapas", "simpáticas"])}.
 
