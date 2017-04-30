@@ -30,17 +30,17 @@ s_adjetivo2(G, N) --> [] | s_preposicional(_, _), s_adjetivo2(G, N).
 %s_adverbial --> s_adverbial, s_preposicional.
 s_adverbial --> adverbio, s_adverbial2.
 s_adverbial2 --> [] | s_preposicional(_, _), s_adverbial2.
-		
+
 % REVISAR PERSONA
 s_verbal(G, N) --> verbo(normal, _, G, N, __), complementos.
-complementos --> [] | complemento, complementos.
-complemento --> s_nominal(_, _) | s_adjetivo(_,_) |
-		s_adverbial | s_adjetivo(_, _).
+
 
 s_verbal(G,N) --> verbo(copulativo, _, G, N, _), s_adjetivo(G, N).
 s_verbal(G,N) -->verbo(copulativo,_,G,N,_),s_preposicional(_,_).
 s_verbal(G,N) -->verbo(copulativo,_,G,N,_),s_nominal(_,_).
-
+complementos --> [] | complemento, complementos.
+complemento --> s_nominal(_, _) | s_adjetivo(_,_) |
+		s_adverbial | s_adjetivo(_, _).
 %% Vocabulario
 
 determinante(masculino, singular) --> ["ese"].
