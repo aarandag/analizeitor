@@ -46,6 +46,12 @@ determinante(masculino, plural) --> ["aquellos"].
 determinante(femenino, singular) --> ["aquella"].
 determinante(femenino, plural) --> ["aquellas"].
 
+sustantivo(masculino,singular) --> ["arbol"].
+sustantivo(masculino,plural) --> ["arboles"].
+sustantivo(femenino,singluar) -->["chica"].
+sustantivo(femenino,plural) -->["chicas"].
+sustantivo(masculino,singluar) -->["chico"].
+sustantivo(masculino,plural) -->["chicos"].
 sustantivo(masculino, singular) --> ["él"].
 sustantivo(femenino, singular) --> ["ella"].
 sustantivo(femenino, singular) --> ["casa"].
@@ -66,3 +72,7 @@ adjetivo(masculino, singular) --> ["bonito"].
 adjetivo(femenino, singular) --> ["bonita"].
 adjetivo(masculino, plural) --> ["bonitos"].
 adjetivo(femenino, plural) --> ["bonitas"].
+adjetivo(masculino, singular) --> ["guapo"].
+adjetivo(femenino, singular) --> ["guapa"].
+adjetivo(masculino, plural) --> ["guapos"].
+adjetivo(femenino, plural) --> ["guapas"].
