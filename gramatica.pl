@@ -8,14 +8,18 @@ oracion --> s_verbal(_, _).
 s_nominal(Genero, Numero) --> determinante(Genero, Numero), s_nominal2(Genero, Numero).
 s_nominal(Genero, Numero) --> s_nominal2(Genero, Numero).
 
-
 s_nominal2(G, N) --> sustantivo(G, N).
 s_nominal2(G, N) --> s_adjetivo(G, N),  s_nominal(G, N).
 s_nominal2(G, N) --> sustantivo(G, N), s_adjetivo(G, N).
 
 s_preposicional(G,N) --> preposicion,s_nominal(G,N).
-s_adjetivo(G, N) --> adjetivo(G, N).
+
 s_adjetivo(G, N) --> s_adverbial, s_adjetivo(G, N).
+%s_adjetivo(G, N) --> adjetivo(G, N).
+%s_adjetivo(G, N) --> s_adjetivo(G, N), s_preposicional(_, _).
+s_adjetivo(G, N) --> adjetivo(G, N), s_adjetivo2(G, N).
+s_adjetivo2(G, N) --> [].
+s_adjetivo2(G, N) --> s_preposicional(_, _), s_adjetivo2(G, N).
 
 s_adverbial --> adverbio.
 
