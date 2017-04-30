@@ -49,13 +49,27 @@ determinante(masculino, singular) --> ["aquel"].
 determinante(masculino, plural) --> ["aquellos"].
 determinante(femenino, singular) --> ["aquella"].
 determinante(femenino, plural) --> ["aquellas"].
+determinante(_, plural) --> ["mi"].
+determinante(masculino, plural) --> ["unos"].
+determinante(femenino, singular) --> ["la"].
+determinante(_, plural) --> ["sus"].
 
 sustantivo(masculino, singular) --> ["él"].
 sustantivo(femenino, singular) --> ["ella"].
 sustantivo(femenino, singular) --> ["casa"].
 sustantivo(femenino, plural) --> ["casas"].
+sustantivo(masculino, singular) --> ["enrique"].
+sustantivo(masculino, singular) --> ["amigo"].
+sustantivo(masculino, singular) --> ["pueblo"].
+sustantivo(_, plural) --> ["turistas"].
+sustantivo(masculino, plural) --> ["abuelos"].
+
 preposicion --> ["de"].
+preposicion --> ["a"].
+
 adverbio --> ["muy"].
+adverbio --> ["tan"].
+adverbio --> ["pronto"].
 
 verbo(copulativo, indicativo, _, singular, tercera) --> ["es"].
 verbo(copulativo, indicativo, _, plural, tercera) --> ["son"].
@@ -66,7 +80,11 @@ verbo(copulativo, indicativo, _, plural, tercera) --> ["parecen"].
 verbo(copulativo, indicativo, _, singular, tercera) --> ["está"].
 verbo(copulativo, indicativo, _, plural, tercera) --> ["están"].
 
+verbo(normal, indicativo, _, singular, tercera) --> ["venderá"].
+verbo(normal, indicativo, _, singular, tercera) --> ["muerde"].
+
 adjetivo(masculino, singular) --> ["bonito"].
 adjetivo(femenino, singular) --> ["bonita"].
 adjetivo(masculino, plural) --> ["bonitos"].
 adjetivo(femenino, plural) --> ["bonitas"].
+adjetivo(masculino, singular) --> ["simpático"].
