@@ -99,11 +99,9 @@ adjetivo(masculino, singular) --> ["bonito"].
 adjetivo(femenino, singular) --> ["bonita"].
 adjetivo(masculino, plural) --> ["bonitos"].
 adjetivo(femenino, plural) --> ["bonitas"].
-<<<<<<< HEAD
 adjetivo(masculino, singular) --> ["guapo"].
 adjetivo(femenino, singular) --> ["guapa"].
 adjetivo(masculino, plural) --> ["guapos"].
 adjetivo(femenino, plural) --> ["guapas"].
-=======
 adjetivo(masculino, singular) --> ["simpático"].
->>>>>>> prueba
+
