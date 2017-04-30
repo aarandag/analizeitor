@@ -15,8 +15,8 @@ s_nominal2(G, N) --> s_adjetivo(G, N),  s_nominal2(G, N).
 
 s_nominal2(G, N) --> sustantivo(G, N), s_nominal3(G, N) |
 		     sustantivo(G, N), s_adjetivo(G, N), s_nominal3(G, N).
-s_nominal3(_, _) --> [] | s_preposicional(_, _), s_nominal3(_, _).
-s_nominal3(G, N) --> [] | s_nominal(G, N), s_nominal3(G, N).
+s_nominal3(G, N) --> [] | s_preposicional(_, _), s_nominal3(G, N) |
+		     s_nominal(G, N), s_nominal3(G, N).
 
 s_preposicional(G,N) --> preposicion,s_nominal(G,N).
 
@@ -55,7 +55,7 @@ determinante(masculino, singular) --> ["aquel"].
 determinante(masculino, plural) --> ["aquellos"].
 determinante(femenino, singular) --> ["aquella"].
 determinante(femenino, plural) --> ["aquellas"].
-determinante(_, plural) --> ["mi"].
+determinante(_, singular) --> ["mi"].
 determinante(masculino, plural) --> ["unos"].
 determinante(femenino, singular) --> ["la"].
 determinante(_, plural) --> ["sus"].
