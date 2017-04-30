@@ -21,9 +21,12 @@ s_adjetivo(G, N) --> adjetivo(G, N), s_adjetivo2(G, N).
 s_adjetivo2(G, N) --> [].
 s_adjetivo2(G, N) --> s_preposicional(_, _), s_adjetivo2(G, N).
 
-s_adverbial --> adverbio.
-
-
+%s_adverbial --> adverbio.
+%s_adverbial --> s_adverbial, s_preposicional.
+s_adverbial --> adverbio, s_adverbial2.
+s_adverbial2 --> [].
+s_adverbial2 --> s_preposicional(_, _), s_adverbial2.
+		
 % REVISAR PERSONA
 s_verbal(N, G) --> verbo(normal, _, G, N, __).
 s_verbal(G, N) --> verbo(normal, _, G, N, _), s_nominal(_, _).
