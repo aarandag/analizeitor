@@ -1,0 +1,1662 @@
+﻿<A la hora de subir las preguntas tenéis que seguir dos patrones: 
+1) poner un punto en la respuesta correcta de la pregunta, y en las demás no.
+2) en la respuesta, utilizar dos espacios entre las últimas dos palabras. Nota: cuando vayáis a aplicar el 2do patrón, por favor, a la hora de subirlo en la parte de contenido, volver a aplicar este patrón.
+
+
+Saludos P.
+
+
+Antonio García-Peñuela 
+
+
+T<2>S<4>P<1> Un problema relajado es:{ 
+~ Todas las respuestas son correctas
+~ Un problema no consistente
+~ Un problema con una heurística no admisible
+= Un problema con menos restricciones en las  acciones.}
+
+
+
+
+T<2>S<2>P<2> Un agente es ________ si se apoya en el conocimiento inicial proporcionado por el diseñador.{
+~ Determinista
+= Dependiente.
+~ Irracional
+~ Autónomo}
+
+
+
+
+T<3>S<2>P<1>  ¿Cuál de los siguientes cuatro componentes no es necesario para definir un problema?{
+~ Un estado inicial
+~ El test objetivo
+~ El conjunto de acciones disponibles
+= Un estado  final.}
+
+
+T<3>S<3>P<2> Los problemas relajados se caracterizan por:{
+~ No ser consistentes
+~ Ser muy sencillos
+~ Aumentar las restricciones
+= El coste de la solución  óptima.}
+
+
+T<2>S<1>P<3>  Un agente racional:{
+~ Es aquel que se basa en las evidencias aportadas por la secuencia de percepciones y en el
+conocimiento que el agente mantiene almacenado
+= A y C son   correctas.
+~ Es aquel que en cada posible secuencia de percepciones, deberá emprender aquella acción
+que supuestamente maximice su medida de rendimiento
+~ Es un proyecto de robótica capaz de razonar como el ser humano}
+
+
+T<1>S<1>P<3> El rendimiento de un algoritmo se evaluará de la siguiente forma:{
+~ Complejidad, optimización, complejidad en tiempo y complejidad en espacio
+= Completitud, optimización, complejidad en tiempo y complejidad en   espacio.
+~ Optimización, tiempo y completitud
+~ Complejidad en tiempo y en espacio}
+
+
+
+
+
+
+Sergio Grande Murillo
+
+
+::T2S2P1::Un agente omnisciente... {~conoce el resultado de sus acciones y actúa en consecuencia. Es posible su implementación~conoce el mundo que le rodea en su totalidad y actúa en consecuencia. Es posible su implementación~conoce el mundo que le rodea en su totalidad y actua en consecuencia.No es posible su implementación=conoce el resultado de sus acciones y actua en consecuencia. No es posible su  implementación.}
+
+
+
+
+::T2S4P2::¿Que tipo de Agente se muestra en la Figura1? {~Agente reactivo simple ~Agente reactivo basado en modelos ~Agente basado en utilidad =Agente basado en  objetivos.}
+
+
+::T3S1P3:: Un problema puede definirse formalmente por cuatro componentes, estos son: {~Estado inicial, acciones posibles, esado final, función costo de camino~Estado inicial, camino, estado final, función costo de camino~Estado inicial, espacio de estados, estado final, función costo de camino=Estado inicial, acciones posibles, test o función objetivo, función costo de  camino.}
+
+
+::T3S4P4:: El algoritmo de búsqueda hacia atrás... {~es una variante del primero en anchura que mejora el tiempo de búsqueda~es una variante del primero en profundidad que mejora el tiempo de búsqueda~es una variante del primero en anchura que mejora el uso de memoria=es una variante del primero en profundidad que mejora el uso de  memoria.}
+
+
+::T4S2P5:: Siendo h1 y h2 funciones heurísticas, que h2 domine a h1 implica que... {~h1 es más eficiente que h2~h2 es la función óptima y h1 es admisible~A* usando h1 nunca expandirá más nodos que A* usando h2 =h2 es más eficiente que  h1.}
+
+
+::T4S3P6:: ¿Cuál de estos NO es uno de los pasos que se siguen al generar una nueva solución mediante un algoritmo genético? {~Cruce~Mutación~Selección=Combinación.}
+
+
+Sonia Querencia
+::T<2>S<2>P<1>::Un agente racional es { ~aquel que conoce el resultado de su acción y actúa de acuerdo a él ~aquel que determina el éxito en el comportamiento del agente ~aquel que no conoce el resultado de su acción =aquel que hace lo  correcto.}
+
+
+::T<2>S<4>P<2>::Los componentes conceptuales en los que se divide un agente que aprende son{ ~elemento de aprendizaje, elemento crítico, actuación, generador de objetos ~elemento de aprendizaje, crítica, actuación, generador de diseño ~elemento crítico, aprendizaje, actuación, generador de problemas =elemento de aprendizaje, elemento de actuación, críticas, generador de  problemas.}
+
+
+::T<3>S<1>P<3>::Un algoritmo de búsqueda toma como entrada { ~un objetivo ~una solución ~todas las respuestas son correctas =un  problema.} 
+
+
+::T<3>S<4>P<4>::Marque la respuesta correcta { ~La búsqueda primero en anchura es una estrategia sencilla en la que se expande primero los sucesores del nodo raíz ~La búsqueda primero en anchura es óptima cuando todos los costos son parecidos ~La búsqueda de costo uniforme no se preocupa por el coste total =La búsqueda informada genera los sucesores y distingue entre un estado objetivo de uno que no lo  es.}
+
+
+::T<4>S<2>P<5>::A un problema con menos restricciones en las acciones se le llama{ ~problema heurístico ~problema simple ~problema de acción =problema  relajado.}
+
+
+::T<4>S<3>P<6>::Los algoritmos de búsqueda local funcionan con { ~dos estados ~estados variables ~ninguna respuesta de las anteriores es correcta =un solo estado  actual.} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enrique Simarro
+::T<2>S<2>P<1>::¿Cuál de los siguientes NO es un factor de racionalidad de un agente inteligente? { ~La medida de rendimiento que define el criterio de éxito ~El conocimiento del medio en el que habita acumulado por el agente ~Complejidad del algoritmo =Determinar el éxito de la acción  realizada.}
+
+
+::T<2>S<2>P<2>::La diferencia entre el elemento de aprendizaje y el elemento de actuación es: { ~Que el primero está responsabilizado de hacer mejoras y el segundo se responsabiliza de la selección de acciones internas ~Que el primero está responsabilizado de la selección de acciones externas y el segundo se responsabiliza de hacer mejoras ~Ninguna de las anteriores =Que el primero está responsabilizado de hacer mejoras y el segundo se responsabiliza de la selección de acciones  externas.}
+
+
+::T<3>S<1>P<3>::El primer paso para solucionar un problema es: { ~La formulación del objetivo,basado en la situación actual  ~La medida de rendimiento del agente ~Ninguna de las anteriores =La formulación del objetivo,basado en la situación actual y la medida de rendimiento del  agente.}
+
+
+::T<3>S<2>P<4>::¿Con cuál de las siguientes formas NO se evalúa el rendimiento de un algoritmo? { ~Completitud ~Optimización ~Complejidad en tiempo =Complejidad del  problema.}
+
+
+::T<4>S<1>P<5>::La búsqueda voraz primero el mejor: { ~Trata de expandir el nodo más alejado al objetivo ~No es ninguna estrategia de búsqueda informada ~No utiliza ningún tipo de función heurística =Trata de expandir el nodo más cercano al  objetivo.}
+
+
+::T<4>S<1>P<6>::Sobre las estrategias más importantes sobre búsqueda informada: { ~El algoritmo de profundidad iterativa (A*PI)) es más eficiente que La búsqueda recursiva del primero mejor (BRPM) ~Ninguna de las anteriores ~La eficiencia de los dos algoritmos es exactamente igual =La búsqueda recursiva del primero mejor (BRPM) es más eficiente que el algoritmo de profundidad  iterativa (A*PI).}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PILAR ARANDA SÁNCHEZ
+::T<2>S<1>P<1>::¿La racionalidad de un agente de que factor no depende? { ~El conocimiento del medio en el que habita acumulado por el agente ~La secuencia de percepciones del agente hasta ese momento ~La medida de rendimiento que define el criterio de éxito =De las características del agente. }
+  
+::T<2>S<4>P<2>::Los agentes reactivos simples seleccionan... { ~las acciones sobre la base de las percepciones actuales y futuras, teniendo en cuenta el resto de las percepciones históricas ~las acciones sobre la base de las percepciones futuras, ignorando el resto de las percepciones históricas ~las acciones sobre la base de las percepciones futuras, teniendo en cuenta el resto de las percepciones históricas  =las acciones sobre la base de las percepciones actuales, ignorando el resto de las percepciones históricas.}
+ 
+::T<3>S<1>P<3>::Un problema puede definirse por... { ~estado inicial, acciones, estado final, costo del camino ~estado inicial, camino, costo del camino, estado final ~estado inicial, una descripción de las posibles acciones disponibles por el agente, test objetivo, estado final =estado inicial, una descripción de las posibles acciones disponibles por el agente, test objetivo, costo del camino. }
+ 
+::T<3>S<3>P<4>::Llamamos frontera a la colección de nodos que... { ~se han expandido  ~se han generado y se han expandido  ~nodos que se han generado  =nodos que se han generado pero todavía no se han expandido.}
+ 
+::T<4>S<1>P<5>::Una heurística h(n) es admisible si para cada nodo n,  { ~$h(n)>=h*(n)$ donde h*(n) es el coste real de alcanzar el objetivo desde n ~$h(n)>h*(n)$ donde h*(n) es el coste real de alcanzar el objetivo desde n ~$h(n)<h^(n)$ donde h*(n) es el coste real de alcanzar el objetivo desde n =$h(n)<=h*(n)$ donde h*(n) es el coste real de alcanzar el objetivo desde n.}
+ 
+::T<4>S<1>P<6>::La búsqueda voraz primero el mejor.. { ~expande siempre el nodo con mayor costo ~expande todos los nodos posibles ~trata de expandir el nodo más cercano, alegando que probablemente conduzca rápidamente a una solución =expande siempre el nodo con menor costo.}
+
+
+
+
+
+
+
+
+Jose Manuel Plana Santos
+
+
+::T<2>S<1>P<1>::¿Que es un agente?{
+~Un agente es un controlador permanente que no puede actuar
+~Un agente es un sistema que obvserva y documenta su entorno 
+~Un agente interactua con el entorno mediante avisos 
+=Un agente es cualquier cosa capaz de percibir su medioambiente con la ayuda de sensores y actuar en ese medio utilizando actuadores.}
+
+
+::T<2>S<2>P<2>::¿Que incluyen las medidas de rendimiento?{
+~Incluyen los diversos estados por los que se debe pasar para llegar a una solución 
+~Los estados que ya se han visitado hasta el momento 
+~El tiempo y las estadisticas que generan los movimientos 
+=Incluyen los criterios que determinan el éxito en el comportamiento del agente.}
+
+
+
+
+
+
+::T<3>S<1>P<3>::¿Cual es el primer paso para solucionar un problema?{
+~Reescribir el enunciado para que sea mas comprensible 
+~Extraer los participantes 
+~Detallar los estados posibles 
+=Realizar la formulación de un objetivo.}
+
+
+::T<3>S<3>P<4>::¿Cual de las siguientes es una de las formas para medir el rendimiento de la resolución de un problema?{
+~Coste 
+~Calidad 
+~Medios que intervienen 
+=Optimización.}
+
+
+::T<4>S<1>P<6>::¿De que trata la búsqueda voraz primero el mejor?{
+~Busca en primer lugar el nodo mas alejado y recorre el resto hasta alcanzar el primero ~Busca el objetivo con menor peso y lo establece como primero 
+~Al contrario de su nombre escoge el ultimo 
+=Trata de expandir el nodo más cercano al objetivo, alegando que probablemente conduzca rápidamente a una solución.}
+
+
+::T<4>S<2>P<6>::¿Los métodos de aprendizaje inductivos trabajan mejor cuando...?{
+~Se encuentran en un entorno controlado mediante diferentes agentes 
+~Cuando se les suministran caracteristicas de todos los estados sean relevantes o no ~Cuando puede evaluar todos los estados independienmente de sus caracteristicas 
+=Se les suministran características de un estado que sean relevantes para su evaluación, más que sólo la descripción del estado.}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CRISTIAN GÓMEZ PORTES
+
+
+::T<2>S<3>P<1>::REAS es un entorno de trabajo pero, ¿Cuáles son las siglas de su acrónimo? {~Resultado, Entorno, Acción, Solución ~Rendimiento, Espacio, Actuadores, Solución ~Resultado, Espacio, Ambiente, Sensores =Rendimiento, Entorno, Actuadores, Sensores.}
+
+
+::T<2>S<4>P<2>::¿Cuál de estos tipos de programas básicos para agentes NO existe? {~Agentes reactivos simples ~Agentes reactivos basados en modelos ~Agentes basados en objetivos =Agentes reactivos óptimos.}
+
+
+::T<3>S<1>P<3>::Una secuencia de acciones que dirigen el sistema desde un estado inicial a un estado que verifique el test de objetivo-meta es... {~La función búsqueda ~La función sucesor ~El espacio de estados =La solución de un problema.}
+
+
+::T<3>S<4>P<4>::¿Qué es la búsqueda primero en anchura? {~Una estrategia de búsqueda informada ~Es una búsqueda que expande antes los nodos profundos que los superficiales ~Ninguna de las anteriores =Es una búsqueda que expande antes los nodos superficiales que los profundos.}
+
+
+::T<4>S<1>P<5>::La búsqueda voraz primero el mejor... {~Trata de expandir el nodo más cercano al objetivo ~No es completa porque puede quedarse atascada en bucles ~No es óptima =Todas las respuestas son correctas.}
+
+
+::T<4>S<1>P<6>::La función de evaluación para la búsqueda A-estrella es: f(n)=g(n)+h(n). ¿Cuál de las siguientes afirmaciones es incorrecta? {~f(n) es el coste estimado total del camino que llega al objetivo pasando por n ~h(n) es el coste estimado desde n al objetivo ~g(n) es coste del camino para llegar a n =Ninguna de las anteriores es correcta.}
+
+
+
+
+CARLOS BARRIGAS NÚÑEZ
+
+
+::T<2>S<2>P<1> La racionalidad  depende de unos factores, ¿cuales?:{ ~La medida de rendimiento que define el criterio del éxito, ~El conocimiento del medio en el que habita acumulado por el agente, ~Las acciones que el agente puede llevar a cabo,~La secuencia de percepciones del agente hasta ese momento, =Todas son correctas.}
+
+
+
+
+::T<2>S<3>P<2>::Que significa el acrónimo "REAS" { =Rendimiento,Entorno, Actuadores, Sensores. ~Rendimiento,Entorno,Acción,        Sentido ~Racionalidad,Entorno,Acción, Sensores}
+
+
+
+
+::T<3>S<1>P<3>::Para que un problema esté bien formulado necesita { ~un estado inicial ~una función sucesor ~test objetivo ~costo del camino =todas las respuestas son correctas.} 
+
+
+
+
+::T<3>S<4>P<4>:: Qué tipo de estrategia de búsqueda no informada expande el nodo más antiguo de la frontera {=Búsqueda en anchura , ~Búsqueda en Profundidad , ~Búsqueda de costo uniforme, ~Búsqueda acotada en profundidad}
+
+
+::T<4>S<1>P<5>::¿La búsqueda voraz primero el mejor da la solución más óptima?{=No, Por qué da la solución más cercana pero no la mas optima., ~Si, Por qué expande el nodo más cercano y da una solucion rapidamente}
+
+
+
+
+::T<4>S<3>P<6>::Los algoritmos de búsqueda de ascensión de colinas se mueve hacia valores"...." y termina "...." { =crecientes( cuando encuentra un “pico“ donde ningún vecino tiene un valor mayor). ~decrecientes( al llegar a 0}
+
+
+RODRIGO DÍAZ-HELLÍN VALERA
+
+
+::T<2>S<2>P<1>::¿De qué factor NO depende la racionalidad en un momento? { ~La medida de rendimiento que define el éxito ~El conocimiento del medio en que habita acumulado por el agente ~Las acciones que el agente puede llevar a cabo =La percepción del agente al  final.}
+ 
+::T<2>S<3>P<2>::¿Qué medida hubo que especificar en la discusión de la racionalidad de un agente aspiradora simple? { ~Rendimiento ~Entorno ~Actuadores y Sensores =Todas son  correctas.}
+ 
+::T<3>S<1>P<3>::¿Qué componente forma parte de un problema? { ~El estado inicial ~Descripción de las posibles acciones (función sucesor) ~Coste del camino =Todas son  correctas.}
+ 
+::T<3>S<4>P<4>::Marque la opción correcta { ~Búsqueda primero en anchura implementa una cola LIFO ~Búsqueda primero en anchura se expande de los sucesores a la raíz ~La búsqueda en anchura no es óptima cuando todos los costes son iguales =La búsqueda en anchura implementa una cola  FIFO.}
+ 
+::T<4>S<1>P<5>::Marque la opción correcta { ~Búsqueda en A* evalúa los nodos ~Búsqueda en A* evalúa el coste para alcanzar el nodo ~Búsqueda en A* evalúa el coste de ir al nodo objetivo =Todas son  correctas.} 
+::T<4>S<3>P<6>::El algoritmo de búsqueda por haz local { ~guarda la pista de un estado ~selecciona el mejor sucesor de la lista ~ninguna es correcta =comienza generando estados  aleatoriamente.}
+
+
+
+
+
+
+
+
+
+
+Oliva Gálvez García
+
+
+::T<2>S<2>P<1>::La racionalidad { ~minimiza el rendimiento esperado ~maximiza el resultado real ~es lo mismo que la perfección =maximiza el rendimiento  esperado}
+
+
+::T<2>S<4>P<2>::¿Qué tipos de agentes responden directamente a las percepciones?{~basados en objetivos ~basados en utilidad ~ninguna de las anteriores =reactivos  simples}
+
+
+::T<3>S<1>P<3>::Una secuencia de estados conectado por una secuencia de acciones se le denomina {~función objetivo ~ninguna de las anteriores ~costo mínimo =camino}
+
+
+::T<3>S<6>P<4>::¿Qué tipo de búsqueda puede reducir enormemente la coplejidad en tiempo, pero no es siempre aplicable y puede requerir demasiado espacio? {~búsqueda primero en profundidad ~búsqueda primero en anchura ~búsqueda de profundidad limitada =búsqueda  bidireccional}
+
+
+::T<4>S<1>P<5>::La Búsqueda A* {~maximiza el costo estimado total de la solución ~ninguna de las anteriores ~no utiliza ningún tipo de función heurística =minimizar el costo estimado total de la  solución}
+
+
+::T<4>S<2>P<6>::¿Cuál de estos problemas NO produce un atasco al utilizar la búsqueda de ascensión de colinas? {~crestas ~mesetas ~máximo local =mínimo local}
+
+
+
+
+Víctor Prado Galán
+
+
+::T<2>S<3>P<1>::¿Cuál de las siguientes NO es una propiedad de los entornos de trabajo? { ~Totalmente observable ~Estático~Multiagente =Escalable.}
+
+
+::T<2>S<4>P<2>::¿Qué agente sería más correcto aplicar en la siguiente situación? Un taxi que desee establecer una ruta para alcanzar un destino de acuerdo a rapidez y distancia { ~Agente reactivo simple ~Agente reactivo basado en modelo~ Agente basado en objetivos =Agente basado en utilidad.}
+
+
+::T<3>S<4>P<3>::¿En qué consiste una búsqueda bidireccional? { ~Poder recorrer cualquier transición del espacio de estados en los dos sentidos~Comenzar dos búsquedas simultáneas desde el estado inicial y final y comprobar cuál de las dos llega al estado opuesto antes ~Ninguna es correcta =Comenzar dos búsquedas simultáneas desde el estado inicial y final hasta que las dos se encuentren.}
+
+
+::T<3>S<4>P<4>::¿Cuál de las siguientes búsquedas NO garantiza que el algoritmo encuentre una solución cuándo esta exista? (Completitud) { ~Primero en anchura ~Costo uniforme ~Bidireccional =Primero en profundidad.}
+::T<4>S<1>P<5>::La búsqueda voraz primero el mejor es aquella que… { ~trata de expandir el nodo al que primero accede~trata de expandir el nodo que se accede con menor costo ~trata de expandir nodos aleatoriamente =trata de expandir el nodo más cercano al objetivo.}
+
+
+::T<4>S<1>P<6>::La desigualdad triangular que se da en la búsqueda A* especifica que… { ~un lado del triángulo será la suma de los otros dos ~al menos dos lados de un triángulo serán de la misma longitud~no pueden existir mas de dos lados con la misma longitud =cada lado de un triángulo no puede ser más largo que la suma de los otros dos.}
+
+
+Ángel Pavón Baeza
+
+
+ geneticos.png 
+
+                                                  Figura1
+
+
+::T<2>S<1>P<1>::¿Para que fue diseñado el Test de Turing? { ~Para automatizar el comportamiento inteligente ~Para gobernar la forma de operar del pensamiento ~Como aplicacion de la teoria para generar un programa =Para proporcionar una definicion operacional y satisfactoria de  inteligencia.}
+
+
+::T<2>S<2>P<2>::¿Que quiere decir que un entorno es estatico? { ~Que se resuelve con un solo agente ~Un entorno no puede ser estatico ~El estado puede cambiar mientras que el agente esta deliberando =Que el estado del medio no puede cambiar mientras que el agente esta  deliberando.}
+
+
+::T<3>S<3>P<3>::¿Cuales son los distintos componentes a la hora de formular un problema? { ~Estado Inicial, Sucesor y Costo del Camino ~Estado Inicial, Sucesor y Costo de la Accion ~Espacio de Estados, Test Objetivo y Costo del Camino =Estado Inicial, Sucesor, Test Objetivo y Costo del  Camino.}
+
+
+::T<3>S<5>P<4>::¿Que tipo de problema son no observables? { ~Problemas de exploracion ~Problemas de estados simples ~Problemas con contingencia =Problemas  conformes.}
+
+
+::T<4>S<2>P<5>::¿Cual de estas busquedas es una estrategia informada? { ~Voraz ~A* ~Heuristica =Las tres son estrategias  informadas.}
+
+
+::T<4>S<3>P<6>::¿Que tipo de algoritmo de busqueda local se usa en la figura 1? { ~Ascension de colinas ~Busqueda por haz local ~Ninguna de las respuestas anteriores =Algoritmo  Genetico.}
+
+
+
+
+
+
+JAVIER MARTÍN MORENO
+::T<2>S<1>P<1>::La secuencia de percepciones de un agente refleja { ~las funciones que el agente debe realizar ~el comportamiento de las acciones que envía el agente ~ las últimas entradas que el agente ha recibido =el historial completo de lo que el agente ha  recibido.}
+ 
+::T<2>S<2>P<2>::Las medidas de rendimiento incluyen los criterios que determinan { ~la secuencia de percepciones del agente ~las acciones que el agente puede llevar a cabo ~el resultado de acción del agente =el éxito en el comportamiento del  agente.}
+ 
+::T<3>S<3>P<3>::¿Cuál de las siguientes formas NO corresponde con la evaluación del rendimiento? { ~Completitud ~Optimización ~Complejidad en espacio =Complejidad en el factor de  ramificación.}
+ 
+::T<3>S<4>P<4>::¿Qué tipo de búsqueda se basa en una estrategia sencilla en la que se expande primero el nodo raíz, a continuación todos los sucesores del nodo raíz, etc.? { ~Búsqueda de profundidad limitada ~Búsqueda primero en profundidad ~Búsqueda de costo uniforme =Búsqueda primero en  anchura.}
+ 
+::T<4>S<2>P<5>::¿Qué es un problema relajado? { ~Un problema con bajo costo ~Un problema con todas las posibles restricciones en las acciones ~Un problema equilibrado en cote-restricciones =Un problema con menos restricciones en las  acciones.}
+ 
+::T<4>S<5>P<6>::¿Qué tipo de búsqueda es una idea necesaria para un problema de exploración, donde los estados y las acciones son desconocidos por el agente? { ~La búsqueda por haz local ~La búsqueda de temple simulado ~La búsqueda offline =La búsqueda  online.}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jose Diaz
+::T<2>S<2>P<1>::La racionalidad { ~minimiza el rendimiento esperado ~maximiza el resultado real ~es lo mismo que la perfección =maximiza el rendimiento  esperado.}
+
+
+::T<2>S<3>P<2>::¿Qué medida hubo que especificar en la discusión de la racionalidad de un agente aspiradora simple? { ~Rendimiento ~Entorno ~Actuadores y Sensores =Todas son  correctas.}
+
+
+::T<3>S<1>P<3>::Se define a una solución como: {~Conjunto de estados reales ~Secuencia de acciones que dirigen el sistema desde un estado inicial a un estado que verifique el test de objetivo-meta ~Ninguna de las anteriores =Combinación de acciones que permiten llegar a un  objetivo.}
+
+
+::T<3>S<3>P<4>::Una característica de la búsqueda de costo uniforme es: {~Es optima si todos los nodos se expanden en orden decreciente g(n)  ~Nunca puede ser óptima ~No podemos garantizar completitud si el costo de cada paso es mayor o igual a alguna constante positiva pequeña =Si todos los costos son iguales, es igual que la búsqueda primero en  anchura.}
+
+
+::T<4>S<1>P<5>::La búsqueda voraz primero el mejor.. {~expande siempre el nodo con mayor costo ~expande todos los nodos posibles ~trata de expandir el nodo más cercano, alegando que probablemente conduzca rápidamente a una solución =expande siempre el nodo con menor  costo.}
+
+
+::T<4>S<1>P<6>:: Para un búsqueda voraz primero el mejor y búsqueda A* ¿qué afirmación es verdadera? {~La búsqueda A* utiliza f(n)=g(n)+h(n), y es muy eficaz para problemas grandes, ya que no guarda todos los nodos generados en memoria ~La búsqueda voraz primero el mejor es completa y óptima ~A* expande todos los nodos con f (n) > C*(C* es el coste del camino de solución óptimo) =la búsqueda voraz utiliza f(n)=h(n), y es susceptible de proporcionar ventajas falsas, que provoca nodos innecesarios para  expandir.}
+
+
+
+
+
+
+JAVIER MARTIN GARCIA
+
+
+::T<2>S<1>P<1>::¿Qué es la función del agente y el programa del agente? { ~La función es una implementación completa y el programa una descripción matemática abstracta ~La función del agente y el programa del agente es lo mismo ~El programa del agente se implementa mediante la función del agente  =La función del agente es una descripción matemática abstracta y el programa del agente una implementación  completa. }
+ 
+ 
+::T<2>S<3>P<2>::¿Qué significan las siglas REAS? {~Rendimiento,Entorno,Accion,Sensores ~Retorno,Entorno,Accion,Sensores ~Ninguna de las anteriores =Rendimiento,Entorno,Acctuadores, Sensores. }
+ 
+::T<3>S<1>P<3>::¿ Por qué componentes podemos definir un problema? { ~Estados,Acciones,Objetivo,Solución ~Estado inicial,Acciones,Espacio de estados,Costo del camino ~Enunciado,Espacio de estados,Objetivo,Solucion =Estado inicial,Funcion sucesor,Test objetivo,Costo del  camino. }
+
+
+::T<3>S<4>P<4>::¿ En qué consiste la búsqueda primero en profundidad? ~Primero se expande el nodo raíz y a continuación todos los sucesores a una misma profundidad ~Primero se expande el nodo raíz y luego el de costo más pequeño ~Se realiza una búsqueda hacia delante desde el estado inicial y otra hacia atrás desde el estado objetivo =Se expande el nodo más profundo en la frontera actual del árbol de  búsqueda. }
+ 
+::T<4>S<1>P<5>::La estrategia que evaluado los nodos combinando el coste para alcanzar el nodo y el coste de ir al nodo objetivo es  ~Busqueda Voraz~Busqueda con memoria acotada~Busqueda primero el mejor =Busqueda  A*. }
+ 
+::T<4>S<2>P<6>::Un problema relajado es ~Un problema no consistente~Un problema con una heurística no admisible~Ninguna de las anteriores es correcta =Un problema con menos restricciones en las  acciones. }
+
+
+EVA MARÍA PEINADO IMEDIO
+
+
+//Figura 1: Figura1.png
+ Figura1.PNG 
+
+
+
+::T<2>S<2>P<1>::¿Cual de los siguientes no corresponde a los factores de los que depende la racionalidad?{ ~La medida de rendimiento que define el criterio del éxito ~El conocimiento del medio en el que habita acumulado por el agente ~Las acciones que el agente puede llevar a cabo =El rendimiento del medio que acumula el  agente.}
+
+
+::T<2>S<4>P<2>::Un agente que selecciona las acciones sobre la base de las percepciones actuales, ignorando el resto de las percepciones históricas, es { ~Agentes basados en objetivos ~Agentes basados en modelos ~Agente basados en utilidad =Agente reactivo  simple.}
+
+
+::T<3>S<1>P<3>::¿Cuáles de los siguientes son los componentes necesarios para definir un problema?. { ~Estado inicial, Test Objetivo, Acciones, Función sucesor, Costo del camino ~Test objetivo, Acciones de búsqueda, Solución ~Solamente sus Estados y sus Sucesores Solución =Estado Incial, Función sucesor, Test Objetivo, Costo del  camino.}
+
+
+::T<3>S<3>P<4>::¿Qué es la frontera? { ~Es la solución al problema ~Colección de nodos expandido ~Únicamente los nodos generados =Colección de nodos no expandidos pero que se han  generado.}
+
+
+::T<4>S<1>P<5>::El algoritmo sencillo que intenta imitar la operación de la búsqueda primero el mejor utilizado solamente en un espacio lineal es { ~Búsqueda A*MS ~Búsqueda A* ~Búsqueda voraz primero el mejor =Búsqueda recursiva del primero  mejor.}
+
+
+::T<4>S<2>P<6>::La Figura 1 corresponde con un 8-puzle. h1 es el número de piezas mal colocadas y h2 la suma de las  distancias de las piezas y sus posiciones en el objetivo. ¿Cuál serían sus valores? { ~$h1=9 $ y $h2=18$ ~$h1=8 $ y $h2=20$ ~$h1=9 $ y $h2=19$ =$h1=8 $ y  $h2=18$.}
+
+
+
+
+ José María Simón López
+
+
+::T<2>S<3>P<1>::¿Cuál de estas tuplas NO está definida como propiedades de los entornos de trabajo en los sistemas inteligentes? {~Discreto o continuo ~Determinista o estocástico ~Estático o dinámico =Reversible o  irreversible.}
+ 
+::T<2>S<3>P<2>::¿Cuál de estos acrónimos NO pertenece a REAS? {~Entorno ~Rendimiento ~Sensores =Aprendizaje.}
+ 
+::T<3>S<1>P<3>::¿Cuál de estas componentes NO forma parte de la definición de un problema? {~Estado inicial ~Función sucesor ~Espacio de estados =Lazo  abierto.}
+ 
+::T<3>S<4>P<4>::Llamamos frontera a la colección de… {~Estados posibles del problema ~Costes que tiene el problema ~Acciones que realiza el agente =Nodos que se han generado pero aún no se han  expandido.}
+ 
+::T<4>S<1>P<5>::La búsqueda informada puede encontrar soluciones de una manera… {~Más equilibrada que una estrategia no informada ~Menos rápida que una estrategia no informada ~Muy infeciente que una estrategia no informada =Más eficiente que una estrategia no  informada.}
+ 
+::T<4>S<1>P<6>::La búsqueda primero el mejor es ampliamente más conocida como… {~Búsqueda voraz ~Búsqueda A ~Búsqueda informal =Búsqueda  A-estrella.}
+
+
+
+
+
+
+
+
+Juan Manuel Caballero Gil
+
+
+::T<2>S<2>P<1>::¿Qué afirmación es cierta en referencia a los agentes omniscientes? {~No conoce cuál será el efecto de su acción, por lo tanto no sabe si actuará correctamente o incorrectamente ~Es capaz de actuar de forma incorrecta si fuera necesario ~Los agentes omniscientes no existen =Conoce el resultado de su acción y actúa de acuerdo con  él.}
+
+
+::T<2>S<3>P<2>::¿Qué parejas posibles no están definidas como propiedades de los entornos de trabajo? {~Episódico o Secuencial ~Discreto o Continuo ~Determinista o Estocástico =Estático o  Dinámico.}
+
+
+::T<3>S<1>P<3>::Para representar formalmente un problema, ¿que componentes se necesitan? {~Origen, destino y costo ~Función sucesor, actuadores y caminos ~Estado Inicial, función sucesor y variables de entorno =Estado inicial, función sucesor, objetivo y  costo.}
+
+
+::T<3>S<3>P<4>::Marca la afirmación correcta en referencia a la frontera {~Es la colección de estados que se han generado y se han expandido ~Es la colección de nodos que se han generado y se han expandido ~Es la colección de caminos que se han generado y no se han expandido =Es la colección de nodos que se han generado y no se han  expandido.}
+
+
+::T<4>S<1>P<5>::La búsqueda voraz primero el mejor nos garantiza que... { ~se encontrará la solución más óptima ~se recorrerán todos los nodos del árbol de búsqueda ~Ninguna respuesta es correcta =se encontrará una solución  válida.}
+
+
+::T<4>S<2>P<2>::¿Que es un problema relajado? {~Un problema que tiene todos los elementos necesarios para poder resolverse ~Un problema que no tiene todos los elementos necesarios para poder resolverse ~Un problema que necesita menos restricciones en las acciones =Un problema que tiene menos restricciones en las  acciones.}
+
+
+CARLOS LOPEZ NIETO
+
+
+::T<2>S<3>P<1>::¿Cuál es el significado del acrónimo REAS? { ~Racionalidad, Entorno, Actuadores, Sensores ~Rendimiento, Encauzamiento, Actuadores, Sensores ~Rendimiento, Entorno, Acciones, Sensores =Rendimiento, Entorno, Actuadores,  Sensores.}
+
+
+::T<2>S<4>P<2>::Para el correcto funcionamiento de un agente reactivo basado en modelos debe utilizar... { ~Una meta ~Una función de utilidad ~Una regla de condición-acción =Un estado  interno.}
+
+
+::T<3>S<1>P<3>::Indica cuál de los siguientes componentes no se usa para definir un problema { ~Test objetivo ~Costo ~Acciones =Solución  óptima.}
+
+
+::T<3>S<3>P<4>::¿Cuál de los siguientes elementos no serviría para medir el rendimiento de la resolución de un problema? { ~Complejidad en espacio ~Complejidad en tiempo ~Optimización =Complejidad en  profundidad.}
+
+
+::T<4>S<3>P<5>::El algoritmo de búsqueda por haz local { ~Guarda la pista de 1 estado escogido aleatoriamente ~Guarda la pista de 1 estado pasado ~Guarda la pista de k estados pasados =Guarda la pista de k estados generados  aleatoriamente.}
+
+
+::T<4>S<s>P<6>::¿De qué otra manera es conocida la búsqueda de ascensión de colinas? { ~Búsqueda de temple simulado ~Búsqueda por haz local ~Algoritmos genéticos =Búsqueda local  voraz.}
+
+
+Raul Gallego de la Sacristana Alises
+
+
+::T<2>S<3>P<2>::¿Qué significan las siglas REAS? {~Retorno,Entorno,Acción,Sensores ~Rendimiento,Entorno,Acción,Sensores ~El resto de respuestas son incorrectas =Rendimiento, Entorno, Actuadores,  Sensores.}
+
+
+::T<2>S<4>P<1>::¿Qué tipos de agentes responden directamente a las percepciones?{~Los agentes basados en utilidad ~Los agentes basados en objetivos ~El resto de respuestas son incorrectas =Los agentes reactivos  simples.}
+
+
+::T<3>S<3>P<3>::Una frontera es un conjunto de nodos que... {~se han generado ~se han expandido ~se han generado y se han expandido  =se han generado pero todavía no se han  expandido.}
+
+
+::T<3>S<3>P<4>::¿Qué es la frontera del problema? {~Es la solución ~Es una colección de nodos expandido ~Es el conjunto de los nodos generados =Es el conjunto de nodos no expandidos pero que se han  generado.}
+
+
+::T<4>S<1>P<5>::La búsqueda voraz de "primero el mejor": { ~No es una estrategia de búsqueda informada ~No utiliza ninguna función heurística ~Trata de expandir el nodo más alejado al objetivo =Trata de expandir el nodo más cercano al  objetivo.}
+
+
+::T<4>S<1>P<6>::¿Cuál de las siguientes opciones es correcta? { ~Búsqueda en A* evalúa el coste para alcanzar el nodo ~Búsqueda en A* evalúa los nodos ~Búsqueda en A* evalúa el coste de ir al nodo objetivo =Todas son  correctas.}
+
+
+
+
+Fabio Ballesteros Sánchez
+ 
+::T<2>S<2>P<1::La racionalidad en un momento determinado depende de cuatro factores, ¿cuál de los siguientes no es uno de ellos?{~Las acciones que el agente puede llevar a cabo ~El conocimiento del medio en el que habita acumulado por el agente ~La medida de rendimiento que define el criterio del éxito =La secuencia de percepciones del agente en todo  momento.}
+ 
+::T<2>S<3>P<2::Cuando un agente no puede acceder al estado completo del medio mediante sus sensores, se encuentra en un entorno de trabajo: {~Estocástico ~Discreto ~Dinámico = Parcialmente  observable.}
+ 
+::T<3>S<1>P<3::Señala cuál de las siguientes afirmaciones es falsa: {~Implícitamente, el estado inicial y la función sucesor definen es espacio de estados de un problema ~Un camino del espacio de estado es una secuencia de estados conectados mediante una secuencia de acciones ~Una solución óptima tiene el costo más pequeño del camino entre todas las soluciones =Una solución de un problema es la situación final, es decir, un estado  objetivo.}
+ 
+::T<3>S<3>P<4>::¿Cuál de los siguientes conceptos no es una forma de evaluar el rendimiento de un algoritmo? {~Complejidad en espacio ~Optimización ~Complejidad en tiempo =Eficiencia.}
+ 
+::T<4>S<1>P<5>::Una heurística admisible: {~Puede ser óptima o no ~Siempre es optimista porque piensan que el coste de resolver el problema es mayor que el que es en realidad ~Nunca es óptima =Siempre es optimista porque piensan que el coste de resolver el problema es menor que el que es en  realidad.}
+ 
+::T<4>S<1>P<6>:: Señale la respuesta correcta acerca del algoritmo de búsqueda A*: {~Es completa siempre, temporalidad exponencial, mantiene todos los nodos en memoria, no es óptima. ~Es completa siempre, temporalidad exponencial, mantiene todos los nodos en memoria, no es óptima. ~Es completa siempre, temporalidad exponencial, mantiene todos los nodos en memoria, es óptima. =Es completa para un número n no infinito de nodos, temporalidad exponencial, mantiene todos los nodos en memoria, es  óptima.}
+
+
+
+
+Laura Jaime Villamayor
+//Figura 1: <figura_1>.png
+
+
+  
+
+Figura 1
+
+
+::T<1>S<3>P<1>::¿Qué agentes seleccionan las acciones sobre la base de las percepciones actuales e ignoran las percepciones históricas? {~Agentes reactivos basados en modelos ~Agentes basados en objetivos ~Agentes basados en utilidad =Agentes reactivos  simples.}
+
+
+::T<1>S<3>P<2>::¿Qué compone un entorno de trabajo? {~Rendimiento, Costo, Agentes y Entorno ~Rendimiento y Entorno ~Rendimiento, Costo, Actuadores y Sensores =Rendimiento, Entorno, Actuadores y  Sensores.}
+
+
+::T<2>S<3>P<3>::Si un problema es determinista y totalmente observable hablamos de... {~Problema conforme ~Problema con contingencias ~Problema de exploración =Problema de estados  simples.}
+
+
+::T<2>S<5>P<4>::Dada la figura 1, y sabiendo que Bucarest es el objetivo, ¿qué tipo de búsqueda es la aplicada?. {~Busqueda en anchura ~Busqueda en Profundidad ~Búsqueda acotada en profundidad =Búsqueda de costo  uniforme.}
+
+
+::T<3>S<2>P<5>::Si evitamos expandir caminos que en ese momento son caros, estamos hablando de... {~Búsqueda Primero el Mejor ~Búsqueda Local ~Ascensión de colinas =Búsqueda  A*.}
+::T<3>S<1>P<6>::En la búsqueda voraz(1º Mejor)... {~Se expande primero el nodo más lejano al objetivo ~Se expande por último el nodo que esta más cerca del objetivo ~Se expande el nodo con menor costo =Expande primero el nodo que parece estar más cerca del  objetivo.}
+
+
+
+
+Josue Gutierrez
+
+
+//figura 1: <file_figura_1>.png
+//Figura 2: <file_figura_2>.png
+.............................
+//Figura n: file_figura_n.png
+
+
+::T<2>S<2>P<1>::La racionalidad { ~minimiza el rendimiento esperado ~maximiza el resultado real ~es igual a la perfección =maximiza el rendimiento  esperado.}
+
+
+::T<2>S<3>P<1>::¿Cuál de las siguientes propiedades no es de un entorno de trabajo? { ~Totalmente observable ~Estático~Multiagente =Escalable.}
+
+
+::T<3>S<3>P<4>::Una frontera es una serie de nodos que { ~se han expandido  ~se han generado y se han expandido  ~se han generado  =se han generado y aun no se han expandido.}
+
+
+::T<3>S<5>P<4>::¿Cual de estos tipos de problema no son observables? { ~Expliracion ~Estados simples ~Contingencia =Conformes.}
+
+
+::T<4>S<1>P<5>::Una busqueda voraz en la que le primero es el mejor { ~intenta expandir el nodo más lejano al objetivo ~no es una estrategia de busqueda informada ~no usa ninguna función heuristica =intenta expandir el nodo mas proximo al  objetivo.}
+
+
+::T<4>S<3>P<6>::Un algoritmo de busqueda de haz local { ~almacena la pista de un estado ~coge el mejor sucesor de la lista ~coge el peor sucesor de la lista =empieza generando estados  aleatoriamente.}
+
+
+
+
+Jesús Manuel González Sanjosé
+
+
+
+
+//figura 1: <file_figura_1>.png
+//Figura 2: <file_figura_2>.png
+.............................
+//Figura n: file_figura_n.png
+
+
+::T<2>S<1>P<1>::¿A qué nos referimos con el termino percepción? { ~Conocimiento de una causa por medio de impresiones ~Historial de recepciones realizadas por un agente ~Sistema de recepciones mediante una serie de causas = para indicar que el agente puede recibir entradas en  cualquier  instante.}
+
+
+::T<2>S<2>P<2>::Selecciona la opción ERRÓNEA.¿De qué factor no depende la racionalidad en un momento determinado? { ~El conocimiento del medio en el que habita acumulado por el agente ~Las acciones que el agente puede llevar a cabo ~La secuencia de percepciones del agente hasta el momento =La medida de rendimiento que define el criterio  de  fallo.}
+
+
+::T<3>S<7>P<3>::Las cuatro partes de un problema son { ~el estado inicial, conjunto de acciones, test objetivo, espacio de estados ~estado inicial, acciones, test objetivo, estado final ~estado inicial, acciones, estado final, costo del camino =estado incial, conjunto de acciones,  test objetivo,  costo del camino.}
+
+
+::T<4>S<2>P<4>::¿Cuál es el costo de una solución óptima en un problema relajado? { ~el mismo que en un problema original ~Un problema relajado no trabaja con costos ~el coste de alcanzar n' más el coste estimado de alcanzar el objetivo desde n' =es una heurística admisible para el  problema  original.}
+
+
+::T<4>S<1>P<5>::¿Qué denota $h(n)$? {~Coste entre dos nodos no objetivo ~Conjunto de soluciones ~coste del camino desde el nodo hasta el más cercano =función  heurística.}
+
+
+::T<4>S<3>P<6>::Indique las ventajas de los algoritmos de búsqueda local { ~Usan poca memoria y pocas soluciones ~Usan muy poca memoria y las soluciones tienen poco costo ~Usan mucha memoria y pueden encontrar a menudo soluciones razonables =Usan muy poca memoria y encuentran soluciones razonables  en  estados  infinitos.}
+
+
+
+
+Lara Resuela
+::T<2>S<2>P<1>::¿De qué factor depende la racionalidad? { ~La medida de rendimiento que define el criterio de éxito ~Las acciones que el agente puede llevar a cabo ~La secuencia de percepciones del agente hasta este momento =Todas las respuestas son  correctas.}
+::T<2>S<3>P<2>::¿Cúal no es una propiedad de los entornos de trabajo? { ~No determinista ~Episódico ~Accesible =Adaptable.}
+::T<3>S<3>P<3>::¿Cúal de las siguientes afirmaciones es falsa? {~Cada elemento de una frontera es un nodo hoja ~Un nodo es una estructura de datos usada para representar un árbol de búsqueda ~Un estado corresponde a una configuración del mundo  =La frontera es una colección de nodos que se han generado y  expandido.}
+::T<3>S<6>P<4>::Cuándo no se conocen los estados ni las acciones, se trata de un problema...  { ~De contingencia ~Sin sensores ~Ninguna respuesta es correcta =De  exploración.}
+::T<4>S<1>P<5>::Una búsqueda voraz primero el mejor es: { ~Completa y no es óptima ~Incompleta y óptima ~Completa y óptima =Incompleta y no es  óptima.}
+::T<4>S<3>P<6>::Un máximo local es un pico: { ~Más bajo que cada uno de sus vecinos pero más alto que el máximo global  ~Más bajo que cada uno de sus estados vecinos y que el máximo global ~Más alto que cada uno de sus estados vecinos y que el máximo global =Más alto que cada uno de sus estados vecinos pero más bajo que el máximo  global.}
+
+
+Ignacio Dones
+::T<2>S<3>P<1>::Se dice que el entorno es totalmente observable si... {~El entorno puede cambiar cuando el agente está deliberando ~El siguiente estado del medio está totalmente determinado por el estado actual y la acción ejecutada por el agente ~El medio es parcialmente observable =Los sensores del agente le proporcionan acceso al estado completo del medio en cada  momento.}
+::T<2>S<3>P<2>::¿De qué se compone un entorno de trabajo (REAS)? {~Rentabilidad, Entorno, Acciones, Sensores ~Rendimiento, Entorno, Acciones, Sensores ~Rendimiento, Entorno, Utilidad, Sensores =Rendimiento, Entorno, Actuadores,  Sensores.}
+::T<3>S<4>P<3>::Llamamos frontera a la colección de… {~Estados posibles del problema ~Costes que tiene el problema ~Acciones que realiza el agente =Nodos que se han generado pero aún no se han  expandido.}
+::T<4>S<1>P<4>::¿Que significa que la búsqueda A* sea óptimamente eficiente? {~Que no hay algoritmos más óptimos que A* ~Que A* cuando encuentra nodo objetivo no lo introduce en la frontera ~Ninguna es correcta =Que no hay algoritmos que expandan menos nodos que  A*.}
+::T<4>S<1>P<5>::El concepto de poda consiste en: {~La eliminación de ramas ya exploradas que no llevan a la solución ~La eliminación de todos los nodos de la frontera ~La eliminación de nodos no expandibles =La eliminación de posibilidades a considerar sin necesidad de  examinarlas.}
+::T<4>S<2>P<6>::¿Qué es un problema relajado? {~Un problema con más restricciones en las soluciones ~Un problema con menos restricciones en las soluciones ~Un problema con más restricciones en las acciones =Un problema con menos restricciones en las  acciones.}
+
+
+Virginia Chacón López
+
+
+//Figura 1: pregunta1.png
+ 
+::T<2>S<4>P<1>::¿A que agentes pertenece la siguiente figura? { ~Agentes reactivos simples ~Agentes basados en objetivos ~Ninguno de los anteriores  =Agentes reactivos basados en  modelos.}
+ 
+::T<2>S<3>P<2>::El acrónimo REAS: { ~Sirve para la recopilación de información ~Es una medida de rendimiento ~Determina las propiedades de los entornos de trabajo =Forma el entorno de  trabajo.}
+ 
+::T<3>S<1>P<1>::Los componentes en los que se define un problema son: { ~Documentación del problema, acciones y espacio de estados ~Estado inicial, acciones, test objetivo, camino y costo del camino ~Estado inicial, Espacio de estados, test objetivo, solución óptima y costo del camino =Estado inicial, función sucesor, espacio de estados, camino, test objetivo, costo del camino, costo individual y solución  óptima.}
+ 
+::T<3>S<4>P<2>:: Esta estrategia se usa en combinación con la búsqueda primero en profundidad, la cual encuentra el mejor límite de profundidad y primero en anchura. Se trata de:: { ~Búsqueda de profundidad limitada ~Búsqueda primero en profundidad ~Búsqueda bidireccional =Búsqueda con profundidad  iterativa.}
+ 
+::T<4>S<1>P<1>::La búsqueda A*: :{ ~Evalúa los nodos utilizando la función heurística f(n)=h(n) ~Tiene la heurística f(n)=g(n)-h(n) ~Ninguna de las respuestas es correcta =Evalúa los nodos combinando g(n), el coste para alcanzar el nodo, y h(n), el coste de ir al nodo  objetivo.}
+ 
+::T<4>S<3>P<2>::En el algoritmo de búsqueda de ascensión de colinas, estas se pueden atascar por los siguientes motivos: :{ ~Por un máximo local ~Por crestas ~Por una meseta =Todas las respuestas son  verdaderas.}
+
+
+Pedro Torres Cano
+
+
+::T<2>S<1>P<1>::El término percepción en los agentes inteligentes se utiliza para indicar que ...  { ~el agente puede recibir entradas con un aviso previo ~el agente no puede recibir entradas sin aviso previo ~el agente puede recibir las entradas que serán ejecutadas al instante =el agente puede recibir entradas en cualquier  instante.}
+
+
+::T<2>S<2>P<2>::La racionalidad implica  { ~Omnisciencia, exploración y autonomía ~Exploración, aprendizaje y clarividencia ~Omnisciencia, clarividencia y autonomía =Exploración, aprendizaje y  autonomía.}
+
+
+::T<3>S<5>P<3>::Para la búsqueda primero en profundidad los únicos nodos en memoria del camino son aquellos   { ~desde el nodo actual hasta el padre ~desde la raíz hasta el padre del nodo actual ~que están expandidos y a la mayor profundidad =desde la raíz hasta el nodo  actual.}
+
+
+
+
+::T<3>S<1>P<4>::¿Qué componente no forma parte de un problema? { ~La función sucesor ~El costo del camino ~El test objetivo =La  frontera.}
+
+
+::T<4>S<3>P<5>::Los algoritmos genéticos comienzan con un conjunto de k estados generados aleatoriamente, ¿cómo se denominan? { ~muestra ~grupo de análisis ~muestra agrupada =ninguna es  válida.}
+
+
+::T<4>S<1>P<6>::La búsqueda voraz primero el mejor  { ~ninguna respuesta es correcta ~trata de expandir el nodo central hasta el objetivo  ~trata de expandir el nodo más cercano al origen =trata de expandir el nodo más cercano al  objetivo.}
+
+
+
+
+
+
+Jesús Martínez Manrique
+//Figura 1: agentes.png
+ agentes.png 
+
+::T<2>S<3>P<1>::En relación a las propiedades del entorno de trabajo de un agente. ¿Cuál sería el caso más complejo de planificación? { ~Totalmente observable,determinista,secuencial,dinámico,continuo y multiagente ~Parcialmente observable,estocástico,secuencial,dinámico,continuo y agente individual ~Ninguna respuesta es correcta =Parcialmente observable,estocástico,secuencial,dinámico,continuo y  multiagente.}
+
+
+::T<2>S<4>P<2>::¿Qué tipo de agente corresponde a la figura 1?  { ~Agente basado en modelos ~Agente basado en utilidad ~Agente basado en objetivo y modelos =Agente basado en utilidad y basado en  modelos.}
+
+
+::T<3>S<4>P<3>::La búsqueda primero en anchura... { ~selecciona para su expansión el nodo no expandido más profundo en el árbol de búsqueda ~es similar a la búsqueda de coste uniforme pero expande el nodo con el costo más pequeño del camino ~puede reducir enormemente la complejidad en tiempo =selecciona para su expansión el nodo no expandido más superficial en el árbol de  búsqueda.}
+
+
+::T<3>S<6>P<4>::Cuando el entorno es tal que el agente puede obtener nueva información de sus sensores después de su actuación. ¿Qué tipo de problema afronta? { ~Problema entre adversarios ~Problema de exploración ~Problema sin sensores =Problema de  contingencia.}
+
+
+::T<4>S<3>P<5>::Indica cuál es el algoritmo que mantiene una estructura de datos del nodo actual y termina cuando alcanza un <<pico>> que ningún otro vecino supera: { ~Ascensión de colinas estocástica ~Ascensión de colinas de primera opción ~Ascensión de colinas de reinicio aleatorio =Todas las anteriores son  correctas.}
+
+
+::T<4>S<3>P<6>::¿Cuál de las siguientes reglas de selección NO se aplica a los algoritmos genéticos? { ~Cruce ~Mutación ~Función idoneidad =Gradiente  descendiente.}
+
+
+Carlos Sobrino Pérez
+                          
+::T<2>S<1>P<1>::La racionalidad de un agente de que factor no depende: { ~El conocimiento del medio en el que habita acumulado por el agente ~La secuencia de percepciones del agente hasta ese momento ~La medida de rendimiento que define el criterio de éxito =De las características del  agente.}
+
+
+::T<2>S<1>P<2>::La secuencia de percepciones de un agente :{~Se utiliza en este contexto para indicar que el agente puede recibir entradas en cualquier instante~Refleja una parte del historial de lo que el agente ha recibido~Ambas son correctas=Refleja el historial completo de lo que el agente ha  recibido.}
+
+
+::T<3>S<4>P<3>::¿Qué tipo de búsqueda se basa en una estrategia sencilla en la que se expande primero el nodo raíz, a continuación todos los sucesores del nodo raíz, etc.? { ~Búsqueda de profundidad limitada ~Búsqueda primero en profundidad ~Búsqueda de costo uniforme =Búsqueda primero en  anchura.}
+
+
+::T<3>S<1>P<4>::Un problema puede definirse:{~Estado inicial y Test Objetivo~Estado inicial y Espacio de estados~Estado inicial, Espacio estados y Estado Final=Ninguna de las anteriores es  correcta.}
+
+
+::T<4>S<5>P<6>::La búsqueda recursiva del primero mejor (BRPM) es un algoritmo sencillo recursivo que:{~Imita la operación de la búsqueda primero el mejor estándar~Utiliza varios espacios lineales ~Ninguna es correcta=Intenta imitar la operación de la búsqueda primero el mejor estándar, pero utilizando sólo un espacio  lineal.}
+
+
+::T<4>S<5>P<6>::Problema relajado se llama a:{~Un problema que es muy fácil encontrar la solución~Un problemas que es muy rápido la llegada a la solución ~Todas son correctas=Un problema con menos restricciones en las  acciones.}
+
+
+Jesús Miguel Sanguino Sánchez
+::T<2>S<1>P<1>::¿Qué es el programa del agente?{~Es una tabla ~Es la función del agente que proyecta una percepción dada ~ Es una descripción matemática abstracta =Es una implementación completa, que se ejecuta sobre la arquitectura del agente}
+
+
+::T<2>S<2>P<2>::¿Cuál de los siguiente es un factor de racionalidad de un agente inteligente? { ~Determinar si el objetivo ha sido o no cumplido ~Las acciones que el agente ha realizado ~Las acciones que el agente no puede llevar a cabo =La medida de rendimiento que define el criterio de éxito}
+
+
+::T<3>S<1>P3:: ¿Cuándo se dice que una solución es optima?{ ~Cuando es un camino desde el estado inicial a un estado objetivo ~El camino desde el estado inicial a un estado objetivo con el coste mayor ~una secuencia de estados conectados por una secuencia de acciones = Es el camino desde el estado inicial a un estado objetivo con el menor coste}
+
+
+
+
+::T<4>S<1>P4::¿Qué es el espacio  de estados metanivel?{ ~En este espacio el agente hace búsqueda de anchura. ~En este espacio el agente hace búsqueda de profundidad ~A través de este espacio de estados no obtenemos solución =Cada estado captura el estado interno de un programa que busca en un espacio de estados a nivel de objeto}
+
+
+
+
+
+
+::T<4>S<2>P5::¿A que se le llama la distancia en la ciudad o distancia de Manhattan en el problema 8-puzzle? { ~Número de piezas mal colocadas ~Numero de piezas bien colocadas ~La resta de las distancias de las piezas a sus posiciones en el objetivo =la suma de las distancias horizontales y verticales}
+
+
+::T<4>S<3>P6:: En el algoritmo búsqueda de ascensión de colinas ¿A que llamamos Máximo Local?{ ~es un área del paisaje del espacio de estados donde la función de evaluación es plana ~Es un pico que es mas bajo que cada uno de sus estados vecinos ~Es un pico que es mas alto que cada uno de sus estados vecinos y mas alto que el máximo global= Es un pico que es mas alto que cada uno de sus estados vecinos pero más bajo que el máximo global}
+
+
+
+
+Enrique Armero Huertas
+
+
+::T<2>S<2>P<1>::La Racionalidad implica { ~exploración, observación y aprendizaje ~aprendizaje y observación ~aprendizaje, autonomía y comprobación =exploración, aprendizaje y  autonomía.}
+
+
+::T<2>S<2>P<2>::Marque la respuesta correcta sobre los agentes basados en utilidad { ~permiten averiguar si el estado actual del entorno es suficiente ~seleccionan las acciones sobre la base de las percepciones actuales ~Todas las respuestas son ciertas =permiten comparar diferentes estados para así elegir aquel que mayor beneficio  proporcione.}
+
+
+::T<3>S<3>P<3>:: A la hora de formular el problema, la función sucesor nos permite { ~describir la situación del estado ~obtener la suma de los costos de cada acción para encontrar la solución ~obtener el costo de pasar de un estado a otro aplicando una acción =a partir de un estado x, obtener el conjunto de pares aplicables a  x.}
+
+
+::T<3>S<6>P<4>:: Señala la respuesta incorrecta sobre las estrategias no informadas {~búsqueda acotada en profundidad ~búsqueda en profundidad ~búsqueda acotada en profundidad iterativa =búsqueda en profundidad  recursiva.}
+
+
+::T<4>S<1>P<5>:: En la búsqueda voraz primero el mejor {~expande primero el nodo que parece estar más lejos del objetivo ~expande el último nodo que parece estar más cerca del objetivo ~Todas las respuestas son falsas =expande primero el nodo que parece estar más cerca del  objetivo.}
+
+
+::T<4>S<3>P<6>:: En los algoritmos genéticos {~la función de evaluación asigna valores menores a los estados mejores ~si la solución vecina es mejor, pasar a ser la solución actual ~el estado sucesor es generado a partir del estado del padre =el estado sucesor se genera mediante la combinación de dos estados  padre.}
+
+
+JUAN ANGEL PIQUERAS LOPEZ
+
+
+::T<2>S<3>P<1>::¿A qué hace referencia el acronimo REAS?{ ~A las propiedades de los entornos de trabajo =A la especificación del entorno de  trabajo. ~A las dos anteriores ~Ninguna de las anteriores}
+::T<2>S<3>P<2>::¿Qué quiere decir que un entorno de trabajo sea determinista?{ ~El entorno puede cambiar cuando el agente está deliberando ~El siguiente estado no está determinado por el estado actual y la acción ejecutada por el agente =El siguiente estado está determinado totalmente por el estado actual y la acción ejecutada por el  agente. ~Ninguna de las anteriores}
+::T<3>S<3>P<3>::¿A qué denominamos frontera en un árbol de búsqueda?{ ~A todos aquellos nodos del árbol que ya han sido explorados ~A todos aquellos nodos del árbol que tienen sucesores en el árbol ~A todos aquellos nodos del árbol que nos proporcionan la solución al problema =A todos aquellos nodos del árbol que aún no han sido  expandidos.}
+::T<3>S<4>P<4>::La estrategia de búsqueda llamada búsqueda hacia atrás es:{ ~Una variante de la búsqueda primero en profundidad pero utiliza más memoria ~Es un sinónimo de la búsqueda con profundidad iterativa ~Es una variante de la búsqueda primero en anchura =Es una variante de la búsqueda primero en profundidad pero utiliza menos  memoria.}
+::T<4>S<1>P<5>::La búsqueda voraz primero el mejor es:{ ~Óptima ~Óptima y completa ~No óptima y completa =No óptima e  incompleta.}
+::T<4>S<1>P<6>::Una heurística admisible:{ ~Puede ser óptima o no ~Siempre es optimista porque piensan que el coste de resolver el problema es mayor que el que es en realidad ~Nunca es óptima =Siempre es optimista porque piensan que el coste de resolver el problema es menor que el que es en  realidad.}
+
+
+
+
+
+
+
+
+
+
+
+
+Manuel Garcia Diaz-Santos
+ Figura 1.png 
+ // Figura 1
+
+
+::T<2>S<2>P<1>::¿Qué afirmacion sobre racionalidad y perfección es correcta? { ~Se puede definir la perfección mediante un agente racional ~Es posible hacer que un agente sea perfecto, es decir, omnisciente. ~La racionalidad requiere omnisciencia y la omnisciencia requiere racionalidad =La racionalidad maximiza el rendimiento esperado, mientras la perfección maximiza el resultado   real.} 
+
+
+::T<2>S<4>P<2>::¿Cual de los siguientes tipos de programas para agentes no se considera básico para los sistemas inteligentes? { ~Agentes reactivos simples ~Agentes reactivos basados en modelos ~Agentes basados en objetivos =Agentes que  aprenden.}
+
+
+::T<3>S<4>P<3>::¿Cuál es el tipo de búsqueda que se sigue en la Figura 1? { ~Busqueda heurística ~Busqueda primero en anchura ~Busqueda de costo uniforme =Busqueda primero en  anchura. }
+
+
+::T<3>S<6>P<4>::Cuando el conocimiento de los estados o acciones es incompleto, ¿qué tipo de problema no corresponde con los distintos tipos de incompletitud? { ~Problema de sensores ~Problemas de contingencia ~Problemas de exploración =Problemas  artificiales. }
+
+
+::T<4>S<2>P<5>::A un problema con menos restricciones en las acciones se le llama... { ~Problema inconsistente ~Problema complejo ~Problema abstracto =Problema  relajado. }
+
+
+::T<4>S<3>P<6>::A pesar de que los algoritmos de búsqueda local no son sistemáticos, ¿cuál de éstas es una propiedad de los algoritmos de búsqueda local? { ~Por lo general, utilizan una cantidad variable de memoria ~Están en desuso ~ No son capaces de encontrar soluciones razonables en espacios de estados grandes =Utilizan muy poca cantidad de  memoria. }
+
+
+Marcos Escalona Arroyo
+
+
+  
+
+
+
+::T<2>S<2>P<1>::Se dice que un agente carece de autonomia cuando: { ~No es capaz de comportarse de forma aleatoria desde el principio ~Atiende a sus propias percepciones por encima de cualquier otro conocimiento inicial ~Posee un entorno de trabajo limitado =Se apoya en mayor medida en el conocimiento inicial que en sus propias percepciones.}
+
+
+::T<2>S<4>P<1>::El esquema recogido en la figura 1 corresponde a: { ~Agentes Reactivos Simples ~Agentes Basados en Objetivos ~Agentes Basados en Utilidad =Agentes Reactivos Basados en Modelos.}
+
+
+::T<3>S<4>P<1>::En cuanto al algoritmo de busqueda en anchura (solo una es correcta): { ~El tiempo de ejecucion es su mayor problema ~Nunca es optimo ~Nunca es completo =Se expande siempre el nodo mas antiguo de la frontera.}
+
+
+::T<3>S<6>P<1>::¿A que tipo de problema conducen los casos de incompletitud? { ~Problemas sin sensores ~Problemas de contingencia ~Problemas de exploracion =Todas son correctas.}
+
+
+::T<4>S<1>P<1>::¿Que afirmacion es falsa respecto a la Busqueda Voraz Primero el Mejor? { ~No es optima ~No es completa ~Mantiene todos los nodos en memoria =No tiene posibilidad de entrar en bucles infinitos.}
+
+
+::T<4>S<3>P<1>::Seleccione la afirmacion correcta respecto a los Algoritmos Geneticos: { ~Un estado sucesor se genera mediante la combinacion de dos estados padre ~La funcion de evaluacion asigna valores mayores a estados mejores ~Produce la siguiente generacion de estados por seleccion, cruce y mutacion =Todas son correctas.}
+
+
+María Pérez Iniesta
+
+
+::T<2>S<3>P<1>::Sabiendo cual es la definición de entorno de trabajo: REAS, indica cual refleja mejor los 4 elementos de un control de una refineria.{~RETORNO(Maximizar la pureza,produccion y seguridad), ENTORNO(Refinería y operadores), ACTUADORES(válvulas, calentadores,bombas, monitores), SENSORES(temperatura, persion, sensores quimicos) ~RENDIMIENTO(Minimizar la pureza,produccion y seguridad), ENTORNO(Refinería y operadores), ACTUADORES(válvulas, calentadores,bombas, monitores), SENSORES(temperatura, persion, sensores quimicos) ~RENDIMIENTO(Maximizar la pureza,produccion y seguridad), ENTORNO(Refinería y operadores), ACTUADORES(válvulas, calentadores,bombas, monitores), SINCRONIZACIÓN(temperatura, persion, sensores quimicos) =RENDIMIENTO(Maximizar la pureza,produccion y seguridad), ENTORNO(Refinería y operadores), ACTUADORES(válvulas, calentadores,bombas, monitores), SENSORES(temperatura, persion, sensores  quimicos).}
+
+
+::T<2>S<3>P<2>::¿Cuál de estas tuplas no esta definida como propiedades de los entornos de trabajo en los sistemas inteligentes?.{~determinista o estocástico ~discreto o continuo ~episódico o secuencial =directo o  indirecto.}
+
+
+::T<3>S<3>P<3>::¿A qué nos referimos cuando utilizamos el término frontera?{~A todos aquellos nodos que ya han sido explorados ~A todos aquellos nodos que nos proporcionan la solución al problema ~Ninguna de las anteriores es correcta =A la colección de nodos que se han generado pero todavía no se han  expandido.}
+
+
+::T<3>S<4>P<4>::¿Qué metodo de busqueda no informada es preferido cuando el espacio de busqueda es grande y no se conoce la profundidad de la solución?{~Búsqueda en anchura ~Búsqueda con profundidad recursiva ~Búsqueda de profundidad limitada =Búsqueda con profundidad  iterativa.}
+
+
+::T<4>S<2>P<5>::¿Qué es un problema relajado?{~Un problema con más restricciones en las acciones ~Un problema con más restricciones en las soluciones ~Un problema con menos restricciones en las soluciones =Un problema con menos restricciones en las  acciones.}
+
+
+::T<4>S<1>P<6>::En la búsqueda A* la desigualdad triangular especifica que...{~Cada lado de un triángulo tiene que ser más largo que la suma de los otros dos lados ~Todos los lados del triángulo tienen que ser iguales ~Todos los ángulos del triángulo tienen que ser iguales =Cada lado de un triángulo no puede ser más largo que la suma de los otros dos  lados.}
+
+
+
+
+
+
+Raul Abad
+
+
+  
+
+
+
+//Figura 1: <file_figura_1>.png
+
+
+::T<1>S<3>P<1>::Si el siguiente estado del medio está totalmente determinado por el estado actual y la acción ejecutada por el agente, entonces nos encontramos ante un entorno{~Secuencial ~Estocástico ~Parcialmente observable =Ninguna de las anteriores}
+
+
+::T<1>S<3>P<2>::La medida de rendimiento{~Tiene como objetivo optimizar el coste de las acciones de un agente ~Depende directamente de la precisión de los sensores ~Es un factor único de los Agentes Basados en Utilidad =Evalúa el comportamiento del agente en el medio}
+
+
+::T<2>S<2>P<3>::En las técnicas de búsqueda basadas en Árboles de Búsqueda, una solución{~coincide con el estado de un nodo objetivo ~es una secuencia de acciones que permiten alcanzar el nodo raíz desde un nodo hoja ~es el camino desde un estado solución al estado inicial =Ninguna de las anteriores}
+
+
+::T<2>S<5>P<4>::El algoritmo de búsqueda primero en profundidad:{~Siempre es óptimo ~Su uso no es recomendable en problemas con espacios grandes de búsqueda ~Es necesario conocer la profundidad máxima a la que se alcanzará la solución =Requiere menor cantidad de memoria que la búsqueda primero en anchura}
+
+
+::T<3>S<1>P<5>::Según el grafo de la Figura 1 ¿Cuál sería la solución si el nodo inicial es $n1$ y se desea alcanzar el nodo destino $n2$ utilizando una búsqueda voraz Primero el Mejor?{~n1->n4->n5->n6 ~n1->n2->n3->n5->n6 ~n1->n2->n4->n5->n6 =No se puede alcanzar el nodo objetivo}
+
+
+::T<3>S<6>P<6>::En la búsqueda de máximos absolutos mediante el algoritmo temple simulado, la solución actual es intercambiada por una vecina si{~$\triangle E<0$ ~$U(0,1)<e^{\frac{\triangle E}{T}}$ ~$T>\triangle E$ =$\triangle E<0$ y $U(0,1)<e^{\frac{\triangle E}{T}}$}
+
+
+
+
+Javier Alonso Ponce
+
+
+::T<1>S<3>P<1>::De entre las siguientes propiedades, ¿cuál de ellas no es propia de un agente? {~Reactividad ~Adaptabilidad ~Veracidad =Disponibilidad.}
+
+::T<1>S<3>P<2>::¿En cuál de los siguientes tipos de entornos el entorno puede cambiar tras haberse producido la deliberación del agente? {~Parcialmente Observable ~Estocástico ~Secuencial =Dinámico.}
+
+::T<2>S<4>P<3>::Se denomina solución a: {~Un estado del espacio de estados que verifique el test de objetivo-meta ~Un nodo de la frontera del árbol de búsqueda del problema, donde se cumple el test objetivo-meta ~El conjunto de estados por los que pasa el sistema desde un estado inicial a un estado objetivo que verifique el test de objetivo-meta =Una secuencia de acciones que dirigen el sistema desde un estado inicial a un estado objetivo que verifique el test de  objetivo-meta.}
+
+::T<2>S<5>P<4>::¿Que estrategia de búsqueda expande el nodo más antiguo de la frontera?{ ~Búsqueda en profundidad ~Búsqueda de coste uniforme ~Búsqueda acotada en profundidad =Búsqueda en  anchura.}
+
+::T<3>S<4>P<5>::¿Cómo se denomina el tipo de algoritmo que usamos cuando el camino a la meta es irrelevante, y lo único que nos importa es llegar al estado objetivo? {~Búsqueda en profundidad ~Heurísticas consistentes ~Búsqueda A* =Búsqueda  local.}
+
+::T<3>S<5>P<6>::Una posible solución para intentar combatir el atasco en un máximo local en el algoritmo de ascensión de colinas podría ser:{~No hay posible solución para combatir este problema ~Tratar de buscar primero el mínimo global ~No es necesaria ninguna alternativa, ya que este algoritmo siempre acaba encontrando el máximo global =Aplicar el algoritmo varias veces desde puntos  distintos.}
+
+
+
+
+
+
+David Santiago
+//Figura 1: figura_1.png
+//Figura 2: figura_2.png
+::T2S3P1::Escoge la opción más correcta. Dada la figura 1 indicar que propiedades tiene el entorno de trabajo. Teniendo en cuenta que la aspiradora solo tiene un sensor y no tiene memoria de estados pasados.{ ~Totalmente observable, estocástico, secuencial, estático ~Parcialmente observable, estocástico, secuencial, estático ~Totalmente observable, determinista, secuencial, dinámico =Parcialmente observable, determinista, episódico,  estático.}  
+::T2S4P2::Como se ve en la figura 2¿Por qué es necesaria la crítica en un modelo general para agentes que aprenden?{ ~Es necesario en los casos en los que el sensor no es capaz de tomar la decisión más adecuada ~No es necesaria. El sistema funcionaría correctamente con la desventaja que tardaría más en llegar a la solución ~Es necesario porque comprobar si los datos obtenidos por el sensor son correctos o hay que volver a introducirlos =Es necesario porque indicar la importancia de los datos que ha pasado el sensor con respecto al éxito del  agente.}  
+::T3S4P1::¿Qué tipo de complejidad temporal tiene la búsqueda bidireccional?{ ~O(b*log2(d)) ~O(b^2/d) ~O(b^2) =O(b^d/2)}
+::T3S4P2::¿Cuál de las siguientes estrategias de búsqueda no es informada o heurística?{ ~Todas las anteriores ~Búsqueda A* ~Búsqueda voraz primero el mejor =Búsqueda primero en anchura}
+::T4S2P1::¿Qué efecto tuvo la precisión heurística en el rendimiento?{ ~Aumenta el factor de ramificación eficaz  ~Permite mejorar un poco  ~Permite obtener el mejor camino siempre =Permite resolver problemas bastante  grandes.}
+::T4S3P2::¿En qué consiste la búsqueda por haz local? { ~Consiste en un elemento tomado de forma aleatoria que ira comprobando con los elementos adyacentes, con el objetivo de buscar la solución ~Consiste en la en la selección de un conjunto de individuos de forma aleatoria, se combinarán los más adecuados para generar nuevos individuos de forma que aquellos individuos más actos serán los que pondrán combinarse ~Consiste en la comprobación constante con los vecinos adyacentes has llegar un punto que se encuentra en el pico, donde ninguno de sus vecinos tiene un valor más alto =Consiste en un conjunto de hilos que buscan de manera independiente y que a su vez van compartiendo información útil entre ellos, para evitar que se desarrolle demasiado una rama que no es  adecuada.}
+
+
+Gonzalo Pérez Fernández
+
+
+::T2S2P1::¿Cuando un agente carece de autonomía?{
+~Cuando se apoya mas en sus propias percepciones
+~Cuando solo utiliza el conocimiento inicial que le proporciona su diseñador
+~Cuando utiliza poco el conocimiento inicial que le proporciona su diseñador
+=Cuando se apoya más en el conocimiento inicial que le proporciona su diseñador.
+}
+::T2S4P1::Un agente basado en objetivos es aquel que{
+        ~ Actua basandose unicamente en el estado actual
+        ~ Posee una funcion de utilidad que le permite saber si un estado es mejor que otro para alcanzar una meta
+        ~ No necesita informacion sobre el estado actual, unicamente sobre su meta
+        = El agente necesita algun tipo de informacion sobre su meta que describe las situaciones deseables
+}
+::T3S1P1::El espacio de estados de un problema esta definido por... {
+        ~Acciones, funcion sucesor
+        ~A y B son ciertas
+        ~Ninguna de las anteriores
+        =Estado inicial, funcion sucesor
+}
+::T3S4P2 :: Señale la opcion incorrecta: La busqueda primero en profundidad ... {
+        ~ Siempre expande el nodo mas profundo 
+        ~ La busqueda procede inmediatamente al nivel mas profundo.
+        ~ Puede implementarse con una cola ultimo en entrar primero en salir (LIFO)
+        = Al expandirse los nodos no son quitados de la frontera
+}
+
+
+
+
+
+
+
+
+
+
+::T4S3P1:: ¿Ventajas de un algoritmo de busqueda local?{
+        ~Usan mucha memoria
+        ~No es necesario el uso de memoria
+        ~Encuentran siempre la mejor solución
+        =Encuentran soluciones razonables en espacios de estados grandes o infinitos
+}
+::T4S3P2::¿Caracteristicas de una busqueda por haz local?{
+        ~Guarda la pista de K estados
+        ~Comienza generando estados aleatoriamente
+        ~Si algun estado es un objetivo, para el algoritmo
+        =Todas las anteriores son correctas
+}
+
+
+
+
+Adrian Mora
+::T2S4P1::Los agentes reactivos simples: {~Seleccionan las acciones aleatoriamente, sin tener en cuenta las percepciones actuales ni las percepciones históricas. ~Seleccionan las acciones en base a las percepciones históricas, ignorando las percepciones actuales. ~Seleccionan las acciones sobre la base de percepciones actuales y las percepciones históricas. =Seleccionan las acciones sobre la base de percepciones actuales, ignorando el resto de percepciones históricas.}
+
+
+::T2S2P2::Se dice que un agente carece de autonomía cuando: {~Se apoya más en sus percepciones que en el conocimiento inicial que le proporciona el diseñador. ~Es incapaz de interactuar con su entorno. ~Es capaz de determinar cómo tiene que compensar el conocimiento parcial. =Se apoya más en el conocimiento inicial que le proporciona el diseñador que en sus percepciones.}
+
+
+::T3S1P3::Para solucionar un problema en primer lugar se realiza la formulación del objetivo, esto se hace en base a: {~La situación actual. ~La situación actual, la medida de rendimiento del agente y la complejidad del problema. ~La situación actual y la complejidad del problema. =La situación actual y la medida de rendimiento del agente.}
+
+
+::T3S3P4::La raíz del árbol de búsqueda es: {~El nodo de búsqueda que corresponde con el estado final. ~El nodo de búsqueda descendiente del estado inicial. ~Un nodo sin sucesores en el árbol. =El nodo de búsqueda que corresponde al estado inicial.}
+
+
+::T4S1P5::La búsqueda voraz primer el mejor se caracteriza por: {~Evalúa los nodos combinando g(n), el coste de alcanzar el nodo, y h(n), el coste de ir al nodo objetivo: $f(n) = g(n) + h(n)$ ~Evita expandir a los caminos que actualmente son caros. ~Expande al primer nodo que encuentra. =Trata de expandir al nodo más cercano al objetivo, alegando que probablemente conduzca rápidamente a la solución.}
+
+
+::T4S3P6::En los algoritmos genéticos la función de idoneidad: {~Devuelve valores más bajos para los estados mejores. ~No es relevante, ya que la probabilidad de ser elegido para la reproducción es directamente proporcional al costo del camino. ~Devuelve un valor de idoneidad que es el resultado de realizar la media de los valores de idoneidad de los estados anteriores. =Devuelve valores más altos para los estados mejores.}
+
+
+
+
+
+
+
+
+Patricio Gil Calle - no las ha puesto en el doc, pero me ha tocado corregir
+
+
+::T<2>S<2>P<1>:: Completa la siguiente frase con la palabra que falta: Un agente … conoce el resultado de su acción y actúa de acuerdo con él. { ~secuencial ~determinista ~observable =omnisciente}
+
+
+::T<2>S<4>P<2>:: ¿Cuál es la forma más efectiva que tienen los agentes de manejar la visibilidad parcial? { ~Contener variables de estado ~Generar por sí solos comportamientos que aumentan dicha característica ~No se puede manejar la visibilidad parcial =Almacenar información de las partes del mundo que no pueden ver.}
+
+
+::T<3>S<3>P<3>:: ¿Cuál es el atributo que afecta a la expansión de el estado? { ~Estado Inicial ~Función Sucesor ~Test Objetivo =Estrategia de Búsqueda}
+
+
+::T<3>S<4>P<4>:: ¿Cuál de las estrategias de búsqueda no informadas no son completas? { ~Primero en anchura y primero en profundidad ~Profundidad iterativa y primero en profundidad ~Bidireccional y primero en anchura =Primero en profundidad y profundidad limitada.}
+
+
+::T<4>S<3>P<5>:: Completa la siguiente frase con la palabra que falta: … es una variante de la búsqueda de haz estocástica en la que los estados sucesores se generan combinando dos estados padres, más que modificar un solo estado. { ~Búsqueda de anchura ~Algoritmo escalar ~Búsqueda de algoritmos =Algoritmo genético.}
+
+
+::T<4>S<3>P<6>:: ¿Cuál de estas estrategias de búsqueda es informada? { ~Búsqueda en anchura ~Búsqueda de costo uniforme ~Búsqueda de templo simulado =Búsqueda de ascensión de colinas.}
+
+
+
+
+José María Diezma Rodríguez -no estaba en doc, me ha tocado corregir
+
+
+//TEMA 1 Pregunta 1
+::T1S1P1::Selecciona la respuesta falsa:{=La prueba de Turing daba una lista de cualidades necesarias para obtener inteligencia artificialmente. ~Los sistemas que piensan como humanos son el esfuerzo de hacer que los computadores piensen. ~Los sistemas que actúan como humanos pretenden logran que los computadores realicen tareas que , por el momento, los humanos hacen mejor. ~La IA esta relacionada con conductas inteligentes en artefactos.}
+//TEMA 1 Pregunta 2
+::T1S2P2::Selecciona la opción verdadera acerca de la historia de la IA.{ ~El nacimiento de la IA fue en 1965. =Warren McCulloch y Walter Pitts han sido reconocidos como los autores del primer trabajo de IA. ~Las predicciones de Herbert Simón sobre la IA se cumplieron. ~En la actualidad, internet no supone nada para los agentes inteligentes.}
+//TEMA 2 Pregunta 1 
+::T2S4P1::Selecciona las cualidades de los agentes basados en objetivos:{=Combina información sobre los resultados de las acciones posibles para elegir las que permitan alcanzar una meta. ~Proyecta un estado o secuencia en un número real, que representa un nivel de felicidad. ~Estos agentes seleccionan las acciones sobre la base de las percepciones actuales. ~Ninguna es es correcta.}
+//TEMA 2 Pregunta 2
+::T2S1P2::Selecciona la afirmación correcta.{~La función del agente refleja el historial completo de lo que el éste ha recibido. ~En términos matemáticos se puede decir que el comportamiento del agente viene dado por la secuencia de percepciones que proyecta una percepción dada en una acción. ~El término percepción se usa para indicar que el agente puede recibir entradas en un instante determinado. =El término percepción se usa para indicar que el agente puede recibir entradas en cualquier instante.}
+//TEMA 3 Pregunta 1
+::T3S6P1::¿Qué tipos de problemas nos encontramos cuando el conocimiento de los estados es incompleto?.{~Problemas con sensores, de racionalidad y de exploración. ~Problemas con agentes, de contingencia y de exploración. =Problemas sin sensores, de contingencia y de exploración. ~Problemas sin sensores, de contingencia y de explotación.}
+//TEMA 3 Pregunta 2
+::T3S3P2::Selecciona los componentes de la estructura de datos de un nodo: Puede haber más de una solución.{~Nodo hijo. ~Ninguna es correcta. ~Número de Hijos. =Estado}
+
+
+
+
+Fernando de Cózar Ruano (las figuras luego las subo que no estan en este pc)
+//Figura 1: figura1.png
+
+
+//Figura 2: figura2.png
+::T2S3P1::Si los sensores del agente nos proporcionan acceso completo al
+estado del medio y el siguiente estado está totalmente determinado por el actual
+decimos que:{~El entorno de trabajo es totalmente observable y estocástico. 
+~El entorno de trabajo es parcialmente observable y estático.
+ ~El entorno de trabajo es parcialmente observable y determinista
+. =El entorno de trabajo es totalmente observable y determinista
+.}
+
+
+::T2S4P2::La figura1 nos muestra {~Un agente reactivo simple. ~Un agente reactivo basado en modelos. ~Un agente basado en utilidad. =Un agente basado en objetivos.}
+::T3S6P3::Tipos de problemas por incompletitud del estado {~Perdida de camino, sin sensores, contingencia
+. ~Sin sensores, adversarios, perdida de camino
+. ~Sin sensores, adversarios, exploracion. =Sin sensores, contingencia, exploracion.
+}
+
+
+::T3S7P4::Se puede aplicar algoritmos en el espacio de creencia {
+~Cuando el ambiente no es nada observable.
+ ~No existe un espacio de creencia.
+ ~No se puede aplicar mas de un algoritmo.
+ =Cuando el ambiente es parcialmente observable.}
+
+
+::T4S1P5::¿Es óptima la búsqueda voraz? {
+~Si es óptima, ya que siempre encuentra el destino.
+ ~Es óptima ya que puede barajar varias posibilidades.
+ ~No es óptima porque nunca encuentra el objetivo. =No es óptima y es incompleta.
+
+
+}
+
+
+::T4S1P6::Según la figura2, si seguimos una búsqueda A* el siguiente nodo a expandir sería: {~Zerind puesto que tiene el mayor valor. ~No podemos saberlo puesto que expande al azar. ~Expandimos todos a la vez. =Sibiu puesto que es el que tiene menor valor.}
+
+
+Javier Gómez Fernández
+::T<1>S<1>P<1>::¿Qué necesita un computador para superar la Prueba Global de Turing? {
+~Procesamiento del lenguaje natural y razonamiento automático
+~Procesamiento del lenguaje natural, representación del conocimiento, visión computacional y aprendizaje automático
+~Procesamiento del lenguaje natural, representación del conocimiento, razonamiento automático y aprendizaje automático
+=Procesamiento del lenguaje natural, representación del conocimiento, razonamiento automático, aprendizaje automático, visión computacional y  robótica.
+}
+
+
+::T<2>S<2>P<2>::¿De qué elemento no depende la racionalidad? {
+~La medida de rendimiento que define el criterio de éxito
+~El conocimiento del medio en el que habita acumulado por el agente
+~Las acciones que el agente puede llevar a cabo
+=El resultado de la acción del  agente.
+}
+
+
+::T<3>S<1>P<3>::¿Cuáles son las componentes de un problema? {
+~Estado inicial, espacio de estados y coste
+~Espacio de estados, test objetivo y coste de camino
+~Estado inicial, posibles acciones, camino y coste de camino
+=Estado inicial, posibles acciones, test objetivo y coste del  camino.
+}
+
+
+::T<3>S<6>P<4>::¿Ante qué tipo de problema nos encontramos si el entorno es parcialmente observable o si las acciones son inciertas? {
+~Problema de exploración
+~Problema sin sensores
+~Problema conformado
+=Problema de  contingencia.
+}
+
+
+::T<4>S<2>P<5>::¿En qué consiste la distancia de Manhattan en un puzle de NxN? {
+~Suma del número de piezas mal colocadas
+~Suma de las distancias de las piezas a sus posiciones objetivo
+~Suma de las distancias de las piezas a sus posiciones iniciales
+=Suma de las distancias horizontales y verticales de las piezas a sus posiciones  objetivo.
+}
+
+
+::T<4>S<3>P<6>::¿Cuál es una ventaja de un algoritmo de búsqueda local? {
+~Funcionan con varios estados a la vez
+~Funcionan con múltiples caminos
+~Usan una cantidad variable de memoria
+=Son útiles en problemas de  optimización.
+}
+
+
+Gregorio -No se enteró, no tienen Telegram
+::T2S3P1::En el diseño de un agente, debemos especificar el entorno de tarbajo, que consta de{
+        ~ Problema, Acciones, Solucion.
+        ~ Rendimiento, Estado, Actuadores, Solucion.
+        ~ Problema, Actuadores, Sensores.
+        = Rendimiento, Entorno, Actuadores, Sensores.
+}
+::T2S1P2:: Un agente... {
+        ~Permite percibir su medio ambiente con la ayuda de sensores.
+        ~Actua en el medio ambiente utilizando actuadores.
+        ~Su comportamiento viene dado por la función del agente.
+        =Todas son correctas.
+}
+
+
+
+
+::T3S1P1:: Componentes de un problema {
+        ~Costo individual, camino, espacio de estados, funcion sucesor.
+        ~Estado inicial, costo individual, acciones, funcion sucesor.
+        ~Test objetivo, estado inicial, espacio de estados, acciones.
+        =Estado inicial, test objetivo, acciones, costo del camino.
+}
+::T3S3P2:: Señala la opcion correcta: Para valorar la eficiencia de un algoritmo de busqeuda podemos considerar... {
+        ~ Coste total.
+        ~ Ninguna de las anteriores.
+        ~ A y B son ciertas.
+        = Costo de la busqueda.
+}
+
+
+
+
+
+
+::T4S1P1:: ¿Qué es la función heurística? {
+        ~Coste exacto del camino más barato desde un nodo n a un nodo objetivo.
+        ~Coste exacto más largo desde un nodo n a un nodo objetivo.
+        ~Coste estimado más largo desde un nodo n a un nodo objetivo.
+        =Coste estimado del camino más barato desde el nodo n a un nodo objetivo.
+}
+::T4S2P2:: ¿Que caracteristica tiene un problema relajado? {
+        ~Es un problema el cual no tiene solución.
+        ~Es un problema que tiene unicamente un restricción.
+        ~El número de restricciones es mayor del esperado.
+        =Es un problema con menos restricciones en las acciones.
+
+
+
+
+
+
+
+
+
+
+Javier Zaldivar (no estaban)
+
+
+::T<2>S<3>P<1>::¿Cual de estas tuplas NO está definida como propiedades de los entornos de trabajo en los sistemas inteligentes? {~Discreto o continuo ~Determinista o estocástico ~Estático o dinámico =Reversible o  irreversible.}
+
+
+::T<3>S<1>P<2>:: Existen cuatro componentes por los que se puede definir formalmente un problema, ¿cuales son? {~Enunciado, Espacio de estados, Objetivo, Solución ~Enunciado, Espacio de estados, Objetivo, Costo del camino ~Estado Inicial, Función Sucesor, Espacio de estados, Costo del camino =Estado Inicial, Función Sucesor, Test Objetivo, Costo del  camino.}
+
+
+::T<3>S<1>P<3>:: ¿Cual de los siguientes sirve para definir un problema? {~Estado inicial ~Función sucesor ~Costo =Todas las respuestas son  correctas.}
+
+
+::T<4>S<1>P<4>::La búsqueda primero el mejor es ampliamente mas conocida como {~Búsqueda voraz ~Búsqueda A ~Búsqueda informal =Búsqueda  A-estrella.}
+
+
+::T<4>S<2>P<5>:: ¿Que es un problema relajado? {~Un problema con menor número de nodos ~Un problema con pocas acciones ~Un problema que se resuelve en poco tiempo =Un problema con menos restricciones en las  acciones.}
+
+
+::T<12>S<7>P<6>:: Competitivo y Cooperativo son dos tipos de entorno {~Individual ~Secuencial ~Estocástico =Multiagente.}
+
+
+
+
+Pablo Marcos (no estaban)
+//figura 1: PrimeroEnAnchura.PNG
+::T<1>S<1>P<1>::¿Cuál de las siguientes definiciones de IA no es correcta? { ~El nuevo y excitante esfuerzo de hacer que los computadores piensen...máquinas con mentes, en el más amplio sentido literal. ~La automatización de actividades que vinculamos con procesos de pensamiento humano, actividades como la toma de decisiones, resolución de problemas, aprendizaje... ~erronea_3 =El estudio de las facultades mentales mediante el uso de matemáticas.}
+::T<1>S<1>P<2>::La prueba de Touring se diseñó para { ~Diseñar sistemas inteligentes ~Crear sistemas inteligentes ~Automatizar tareas =Proporcionar una definición operacional y satisfactoria de inteligencia.}
+::T<2>S<1>P<1>::¿Cuál es la diferencia entre la función y el programa del agente? { ~El programa es una descripción simple y la función es una descripción codificada ~La función es una descripción simple y el programa es una descripción codificada ~ El programa es una descripción matemática abstracta y la función es una implementación completa =La función es una descripción matemática abstracta y el programa es una implementación completa.}
+::T<2>S<3>P<1>::¿Entorno Determinista y Entorno estocástico? { ~Son lo mismo. En ninguno se puede predecir lo que puede pasar. ~No son lo mismo. En un entorno estocástico se puede predecir lo que puede pasar, mientras que en un entorno determinista no. ~Son lo mismo. En ambos se puede predecir lo que puede pasar =No son lo mismo. En un entorno determinista se puede predecir lo que puede pasar, mientras que en un entorno estocástico no.}
+::T<3>S<3>P<1>::¿Qué es la completitud? { ~Es la característica que garantiza que el algoritmo de búsqueda encuentre una solución cuando ésta exista. ~Es la característica que garantiza que el algoritmo de resolución de problemas encuentre la mejor solución. ~Es la característica que garantiza que el árbol encuentre una solución cuando ésta exista. =Es la característica que garantiza que el algoritmo de resolución de problemas encuentre una solución cuando ésta exista.}
+::T<3>S<4>P<1>::Fíjese en la figura1. ¿A qué método de búsqueda corresponde esa secuencia? { ~Búsqueda de profundidad limitada ~Búsqueda primero en profundidad ~Búsqueda de costo uniforme =Búsqueda primero en anchura}
+
+
+
+
+Miguel Rodriguez (no estaban)
+::T<2>S<3>P<1>::¿Qué elemento es parte del entorno de trabajo de un agente? {
+~Actuadores.
+~Rendimiento.
+~Sensores.
+=Todas las respuestas. }
+
+
+::T<2>S<4>P<2>::El concepto de estado, no es parte de un agente {
+~Basados en utilidad.
+~Basados en objetivos.
+~Reactivos basados en modelos.
+=Reactivo simple. }
+
+
+::T<3>S<4>P<1>::¿Cuál de las siguientes estrategias de búsqueda no es una estrategia no informada? {
+~Búsqueda acotada en profundidad iterativa.
+~Búsqueda de costo uniforme.
+~Búsqueda en anchura.
+=Búsqueda Voraz. }
+
+
+::T<3>S<4>P<2>::La búsqueda de costo uniforme { 
+~Expande el nodo más antiguo de la frontera.
+~Expande el nodo más moderno de la frontera (el nodo con más profundidad no expandido).
+~Puede reducir enormemente la complejidad en tiempo, pero no es siempre aplicable y puede requerir demasiado espacio.
+=Expande el nodo con menor costo la frontera. } 
+
+
+::T<4>S<3>P<1>::A la técnica de búsqueda de ascensión de colinas se le llama: {
+~Búsqueda de mínimos.
+~Búsqueda máximos.
+~Búsqueda por haz.
+=Búsqueda local voraz. }
+
+
+::T<4>S<3>P<2>::¿ En los algoritmos genéticos cuáles son las etapas para producir una generación de estados? {
+~Cruce y selección.
+~Elegir al mejor, duplicación y mutación.
+~Selección, duplicación y mutación.
+=Selección, cruce y mutación. }
+
+
+
+
+JOSE MIGUEL TORRALBO MARTINEZ (NO ESTABAN)
+
+
+::T<2>S<3>P<1>::Si el siguiente estado del medio No está totalmente determinado por el estado actual y la acción ejecutada por el agente, se dice que el entorno es { ~parcialmente observable ~episódico ~discreto =estocástico}
+
+
+::T<2>S<4>P<2>::¿Qué tipo de agente selecciona las acciones sobre la base de las percepciones actuales? { ~Agentes reactivos basados en modelos ~Agentes basados en utilidad ~Agentes basados en objetivos =Agentes reactivos simples}
+
+
+::T<3>S<1>P<3>::¿Qué cuatro componentes definen un problema? { ~Función sucesor, espacio de estados, costo del camino y solución ~Acciones, espacio de estados, test objetivo y costo del camino ~Ninguna de las respuestas es correcta =Estado inicial, espacio de estados, test objetivo, costo del camino}
+
+
+::T<3>S<4>P<4>::¿Cuál de los siguientes pares de estrategias de búsqueda son completas? { ~Primero en anchura-Primero en profundidad ~Profundidad limitada-Porfundidad iterativa ~Primero en profundidad-Profundidad limitada =Nunguna de las respuestas es correcta}
+
+
+::T<4>S<1>P<5>::¿Qué indica la función heurística h(n)? { ~Coste estimado del camino más barato desde el nodo inicial a un nodo objetivo ~Coste estimado del camino más caro desde el nodo n a un nodo objetivo ~Coste real del camino más barato desde el nodo n a un nodo objetivo =Coste estimado del camino más barato desde el nodo n a un nodo objetivo}
+
+
+::T<4>S<3>P<6>::¿Cuál de los siguientes elementos pueden producir que una búsqueda de ascensión de colinas quede atascada? { ~Crestas ~Meseta ~Máximo local =Todas las respuestas son correctas}
+
+
+Alberto Gordillo (NO ESTABA)
+
+
+//Figura 1: figura_1.png
+::T1S1P1::¿Cúal de las siguientes opciones no es un enfoque de la IA ? {
+~Sistemas que actuan como humanos.
+~Sistemas que piensan como humanos.
+~Sistemas que pienan racionalmente.
+=Sistemas que actuan intuitivamente.
+}
+::T1S1P2::¿Cúal es la función de la prueba de Turing ? {
+~Evaluar el cociente de inteligencia de humanos y/o computadores.
+~Evaluar el cociente de inteligencia de un computador.
+~Proporcionar una definición de inteligencia artificial.
+=Proporcionar una definición operacional y satisfactoria de inteligencia.
+}
+::T1S1P3::¿Cúal es el incicio de la IA ? {
+~1860-1870
+~1910-1920
+~1950-1970
+=1940-1950
+}
+::T1S1P4::¿Qué propiedades ha de cumplir un agente ?Elige la respuesta mas correcta {
+~Autonomía, Adaptabilidad, Sociabilidad, Movilidad, Veracidad, Actividad, Racionalidad.
+~Autonomía, Adaptabilidad, Sociabilidad, Veracidad, Actividad, Racionalidad.
+~Autonomía, Adaptabilidad, Sociabilidad, Veracidad, Racionalidad.
+=Autonomía, Adaptabilidad, Sociabilidad, Movilidad, Reactividad, Veracidad, Proactividad, Racionalidad.
+}
+::T2S1P5::¿ Según la figura uno, qué estado puede ser el inicial ? {
+~El de arriba a la izquierda
+~El de arriba a la derecha
+~Cualquiera de los dos de arriba
+=Todos los estados
+}
+::T2S1P6::¿ De que forma se evalua el rendimiento de un algoritmo ? {
+~ Completitud
+~ Optimización
+~ Complejidad en tiempo y en espacio
+= Todas las respuestas son correctas
+}
+::T2S2P7::¿Cúal de los siguiente algoritmos no es optimo ? {
+~Busqueda A*
+~BRPM
+~A*MS
+=Búsqueda primero el mejor avara
+}
+::T1S2P8::¿Cúal no es una caracteristica de los algoritmos genéticos ? {
+~Un estado sucesor se genera mediante la combinación de dos estados padre.
+~La función de evaluación asigna valores mayores a estados mejores.
+~Produce la siguiente generación de estados por selección, cruce y mutación.
+=Comieza desde un unico estado generado aleatoriamente.
+}
+
+
+Patricio Gil Calle - Perdón por la tardanza en subirlas.
+
+
+::T<2>S<2>P<1>:: Completa la siguiente frase con la palabra que falta: Un agente … conoce el resultado de su acción y actúa de acuerdo con él. { ~secuencial ~determinista ~observable =omnisciente}
+
+
+::T<2>S<4>P<2>:: ¿Cuál es la forma más efectiva que tienen los agentes de manejar la visibilidad parcial? { ~Contener variables de estado ~Generar por sí solos comportamientos que aumentan dicha característica ~No se puede manejar la visibilidad parcial =Almacenar información de las partes del mundo que no pueden ver.}
+
+
+::T<3>S<3>P<3>:: ¿Cuál es el atributo que afecta a la expansión de el estado? { ~Estado Inicial ~Función Sucesor ~Test Objetivo =Estrategia de Búsqueda}
+
+
+::T<3>S<4>P<4>:: ¿Cuál de las estrategias de búsqueda no informadas no son completas? { ~Primero en anchura y primero en profundidad ~Profundidad iterativa y primero en profundidad ~Bidireccional y primero en anchura =Primero en profundidad y profundidad limitada.}
+
+
+::T<4>S<3>P<5>:: Completa la siguiente frase con la palabra que falta: … es una variante de la búsqueda de haz estocástica en la que los estados sucesores se generan combinando dos estados padres, más que modificar un solo estado. { ~Búsqueda de anchura ~Algoritmo escalar ~Búsqueda de algoritmos =Algoritmo genético.}
+
+
+::T<4>S<3>P<6>:: ¿Cuál de estas estrategias de búsqueda es informada? { ~Búsqueda en anchura ~Búsqueda de costo uniforme ~Búsqueda de templo simulado =Búsqueda de ascensión de colinas.}
+
+
+GUILLERMO BAUTISTA RUIZ
+
+
+::T 2 S 2 P 1 :: Un agente racional es aquel que hace lo correcto pero, ¿qué es lo correcto?. 
+{
+~Lo correcto para un agente racional es realizar una acción en función de una percepción actual y el conocimiento del medio que tiene almacenado
+~Lo correcto para un agente racional es realizar en cada momento un acción que maximice el resultado real (Los resultados obtenidos en la vida real)
+~Lo correcto siempre va a ser lo mismo, nunca va a depender de nada
+=Lo correcto es aquello que en cada momento maximice la meta, basándose en la informacion  disponible.
+}
+
+
+::T 2 S 3 P 2 :: El acrónimo REAS, que especifica que forma un entorno de trabajo, ¿Qué significa?:. 
+{
+~Rendimiento, Entradas, Acciones y Sensores
+~Rendimiento, Entorno, Arquitectura y Sensores
+~Rendimiento, Entradas, Agente y Sensores
+=Rendimiento, Entorno, Actuadores y  Sensores.
+}
+
+
+::T 3 S 4 P 3 ::Desde el punto de vista de la eficacia. 
+{
+~Ninguna es correcta
+~La primera solucion encontrada con busqueda en anchura es la optima
+~Ambas son correctas
+=La primera solucion encontrada con busqueda en profundidad es la optima.
+}
+
+
+::T 3 S 4 P 4 ::¿Que metodo de busqueda no informada es preferido cuando el espacio de busqueda es grande?. 
+{
+~Búsqueda bidireccional.
+~Búsqueda primero en profundidad.
+~Búsqueda en anchura.
+=Búsqueda primero en profundidad con profundidad iterativa .
+}
+
+
+::T 4 S 1 P 5 ::¿Con que otro nombre se conoce a los algoritmos voraces?. 
+{
+~Algoritmos hambrientos
+~Algoritmos np-completos
+~Ninguna es correcta
+=Algoritmos avaros.
+}
+
+
+::T 4 S 1 P 6 ::La búsqueda voraz primero el mejor:. 
+{
+~Siempre encuentra la estrategia optima para alcanzar la solución.
+~Siempre que exista una solución nos garantiza encontrarla.
+~Evalúa los nodos utilizando g(n), que es el coste para alcanzar el nodo, y h(n) que es el coste de ir al nodo objetivo. de tal forma que $f(n)=g(n)+h(n)$
+=Trata de expandir el nodo que obtenga una mejor evaluación por la función de evaluación que tenga el  algoritmo.
+}
+
+
+MIGUEL NEGRO LOPEZ (NO ESTABA)
+
+
+
+
+   
+//figura1.png
+
+
+::T<1>S<2>P<1>:: Seg˙n Jennings y Wooldridge, un agente es una entidad autÛnoma que cumple estas propiedades: { ~AutonomÌa, veracidad, racionalidad y simplicidad 
+~AutonomÌa,adaptabilidad,reactividad y complejo ~Simplicidad, autonomÌa, sociabilidad y veracidad =AutonomÌa, adaptabilidad, racionalidad y sociabilidad}
+
+
+::T<1>S<2>P<2>:: Dentro de los tipos de entorno de trabajo, el est·tico se caracteriza por... { ~El problema se resuleve con un ˙nico agente ~ Si el estado del medio 
+puede cambiar mientras que el agente est· deliberando ~Si el estado de arriba no puede cambiar mientras que el agente est· deliberando =Si el estado del medio no puede
+cambiar mientras que el agente est· deliberando}
+
+
+::T<2>S<1>P<3>:: øQuÈ definimos por estado de un problema? { ~Es una descripciÛn anterior a una situaciÛn. Est· representado por un conjunto de funciones con sus 
+valores ~Es una descripciÛn instantanea de una situaciÛn. Est· representado por un conjunto de funciones con sus valores ~Es el conjunto de todas las posibles acciones
+de un problema =Es una descripciÛn instantanea de una situaciÛn. Est· representado por un conjunto de variables con sus valores}
+
+
+::T<2>S<5>P<4>:: En un problema no observable, el agente ... { ~Un agente sabe en que estado est· ~Un agente conoce parcialmente donde est· ~Un agente no tiene informaciÛn
+=Un agente no sabe donde est·}
+
+
+::T<3>S<2>P<5>:: Seg˙n la imagen de la figura1, øcual serÌa el costo para llegar de el estado inicial al objetivo final? { ~diez ~seis ~diecinueve =catorce}
+
+
+::T<3>S<2>P<6>:: En los algoritmos genÈricos, comienza con... {~dos estados generados aleatoriamente ~dos estados generados ordenadamente ~k estados generados ordenadamente
+=k estados generados aleatoriamente}
+
+
+JESUS RAMOS MORENO (NO ESTABA)
+
+
+::T<2>S<4>P<1>::¿Qué quiere decir que un entorno sea estático? {~El estado del medio permanece siempre en el mismo estado, independientemente de la tarea del agente  ~No puede haber ningún entorno estático, por lo tanto, siempre se trabaja de forma dinámica ~Todo entorno es estático siempre, y por tanto no puede variar de ninguna forma posible= El estado del medio no puede cambiar mientras el agente  delibera.}
+::T<2>S<4>P<2>::¿Qué tipo de agente no contempla una posible variación del mundo a la hora de resolver un problema? {~Agentes basados en modelos ~Agentes basados en objetivos ~Agentes basados en utilidad= Agentes reactivos  simples.}
+::T<3>S<1>P<3>::Un problema bien analizado consta de {~Estado inicial, función sucesor y costo del camino~Estado inicial, test objetivo y costo del camino~Estado inicial, función sucesor y test objetivo=Todas las anteriores son  falsas.}
+::T<3>S<6>P<4>::¿Cuál de las siguientes estructuras de datos no forman parte de un nodo? {~Profundidad del nodo ~Costo del camino al nodo g(x) ~Representación de estado=Frontera.}
+::T<4>S<1>P<5>::El algoritmo de búsqueda A* se caracteriza por {~Utiliza una función de evaluación f(n) en cada nodo ~Parte de una solución y busca soluciones vecinas, tomando la mejor vecina y comparando con la primera solución Escapa de los mínimos locales y permite un decremento gradual de su frecuencia~=Evitar expandir caminos que en ese instante son más  caros.}
+::T<4>S<2>P<6>::Se denomina problema relajado a {~El costo es mayor que el costo de la solución óptima del problema ~Un problema en el que costo real es igual al coste estimado ~Un problema en el que todos los caminos tienen la misma heurística h =Un problema con menor restricción de  acciones.}
+
+
+Javier Zaldivar Martin
+
+
+::T<2>S<3>P<1>::¿Cual de estas tuplas NO está definida como propiedades de los entornos de trabajo en los sistemas inteligentes? {~Discreto o continuo ~Determinista o estocástico ~Estático o dinámico =Reversible o  irreversible.}
+
+
+::T<3>S<1>P<2>:: Existen cuatro componentes por los que se puede definir formalmente un problema, ¿cuales son? {~Enunciado, Espacio de estados, Objetivo, Solución ~Enunciado, Espacio de estados, Objetivo, Costo del camino ~Estado Inicial, Función Sucesor, Espacio de estados, Costo del camino =Estado Inicial, Función Sucesor, Test Objetivo, Costo del  camino.}
+
+
+::T<3>S<1>P<3>:: ¿Cual de los siguientes sirve para definir un problema? {~Estado inicial ~Función sucesor ~Costo =Todas las respuestas son  correctas.}
+
+
+::T<4>S<1>P<4>::La búsqueda primero el mejor es ampliamente mas conocida como {~Búsqueda voraz ~Búsqueda A ~Búsqueda informal =Búsqueda  A-estrella.}
+
+
+::T<4>S<2>P<5>:: ¿Que es un problema relajado? {~Un problema con menor número de nodos ~Un problema con pocas acciones ~Un problema que se resuelve en poco tiempo =Un problema con menos restricciones en las  acciones.}
+
+
+::T<12>S<7>P<6>:: Competitivo y Cooperativo son dos tipos de entorno {~Individual ~Secuencial ~Estocástico =Multiagente.}
+
+
+Gonzalo Garcia Moreno (NO ESTABAN)
+::T<1>S<2>P<1>::¿Qué significa tener un comportamiento racional? {~Lograr el objetivo de cualquier manera. ~Alcanzar el objetivo de la forma más óptima siempre. ~Intentar lograr el objetivo, aunque no se consiga. =Maximizar el objetivo con la información disponible.}
+::T<1>S<2>P<2>::¿Cuál no es una de las propiedades de un agente? {~Veracidad. ~Racionalidad. ~Autonomía. =Belleza.}
+::T<2>S<4>P<3>::La búsqueda en anchura para cada instante expande... {~El nodo más nuevo de la frontera. ~Un nodo al azar. ~La búsqueda en anchura no es ninguna estrategia. =El nodo más antiguo de la frontera.}
+::T<2>S<6>P<4>::Un problema con espacio de estados desconocido es un problema... {~De estados simples. ~Conforme. ~Con contigencias. =De exploración.}
+::T<3>S<1>P<5>::La búsqueda A*: {~Sólo tiene en cuenta el coste actual. ~Sólo tiene en cuenta el coste restante. ~No tiene en cuenta ningún coste. =Tiene en cuenta tanto el coste actual como la estimación del restante.}
+::T<3>S<3>P<6>::Señale la opción más correcta sobre los algoritmos genéticos: {~Sólo sirven para problemas relacionados con la genética. ~El azar no juega ningún papel en ellos. ~La función de evaluación asigna valores aleatorios. =Hay una fase de mutación.}
+
+
+Luis Diaz
+::T1S1P1::¿Cuales son las propiedades de un agente? { 
+~Autonomia, Sociabilidad, Inteligencia, Movilidad 
+~Autonomia, Reactividad, Adaptabilidad, Veracidad, Racionalidad 
+~Autonomia, Adaptabilidad, Racionalidad, Movilidad 
+=Todas son  falsas.}
+::T1S3P2::¿Que elementos son necesarios para poder diseñar un entorno de trabajo? { ~Rendimiento y Entorno 
+~Actuadores y Sensores 
+~Las dos anteriores son falsas 
+=Las dos primeras son  verdaderas.}
+::T2S5P3::¿Como se evalua cada estrategia de busqueda? { 
+~Completitud 
+~Complejidad-Temporal 
+~Las dos anteriores son correctas 
+=Todas son  falsas.}
+::T2S5P4::¿Según la busqueda en anchura, cual seria la correcta? { 
+~Expande con menor costo de la frontera 
+~La frontera es una lista ordenada por costo 
+~La frontera es una estructura de pila 
+=El espacio de estados, es el mayor  problema.}
+::T3S2P5::¿Según la figura 1, y teniendo en cuenta que el valor se ha calculado como: $f(n)=c(n)+h(n)$? { 
+~Se ha utilizado la busqueda en anchura 
+~se ha utilizado la busqueda en profundidad 
+~Se ha utilizado la busqueda voraz, primero el mejor 
+=Se ha utilizado la busqueda  A*.}
+::T3S2P6::¿Cuando podemos decir que la heuristica es admisible? { 
+~$h(n) < c(n)$ 
+~$h(n) > f(n)$ 
+~$h(n) > h*(n)$ 
+= $h(n) <=  h*(n)$.}
+
+
+Eduardo Fuentes
+
+
+::T<1>S<1>P<1>::Se define a un agente racional como: 
+{~Ente con la capacidad de obtener un resultado 
+=Agente con la capacidad de actuar con la intención de alcanzar el mejor resultado o al menos en casos de incertidumbre el mejor resultado  esperado. 
+~Programa que resuelve un problema 
+~Conjunto de elementos capaces de realizar un cálculo matemático complejo}
+::T<1>S<1.1>P<2>::La prueba de Turing ...
+{=se diseñó para proporcionar una definición operacional y satisfactoria de  inteligencia.
+~sirve para comprobar la complejidad de un código
+~se diseñó para una mejor comprensión del código
+~se diseñó para proporcionar una definición satisfactoria de inteligencia}
+::T<2>S<3>P<3>::Se dice que un entorno es dinámico cuando... 
+{~Si el entorno no cambia 
+=Si el entorno puede cambiar cuando el agente está  deliberando. 
+~Si el entorno no cambia con el paso del tiempo, pero su rendimiento cambia 
+~Ninguna de las anteriores}
+::T<2>S<2.3>P<4>::¿Cuál de estos casos es el más complejo?
+{~parcialmente observable, estocastico,secuencial, estático, continuo y multiagente
+~totalmente observable,determinista,episodico,estático,discreto y agente individual
+~parcialmente observable,determinista, secuencial, dinámico, continuo y multiagente
+=parcialmente observable, estocástico,secuencial,dinámico, continuo y  multiagente.}
+::T<3>S<3.3>P<5>::¿Cuál de los siguientes conceptos no es una forma de evaluar el rendimiento de un algoritmo?
+{~Complejidad en espacio
+= Eficiencia.
+~Complejidad en tiempo
+~Optimización}
+::T<3>S<4>P<6>::En la búsqueda de profundidad iterativa se dice que... 
+{~No es completo 
+=Es como una búsqueda en profundidad limitada pero aumentando este límite hasta que se encuentre un  objetivo. 
+~En ningún caso es óptimo 
+~Ninguna de las anteriores}
